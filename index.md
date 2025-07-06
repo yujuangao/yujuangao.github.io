@@ -23,11 +23,9 @@ permalink: /
 
   **Connect:**  
   [🔗 LinkedIn](https://www.linkedin.com/in/yujuangao/)  
-  [📚 Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)  
-  [🐦 Twitter](https://twitter.com/YOUR_TWITTER)  
+  [📚 Google Scholar](https://scholar.google.com/citations?user=YOURREALID)  
+  [🐦 Twitter](https://twitter.com/YOURREALHANDLE)  
   [💻 GitHub](https://github.com/yujuangao?tab=repositories)
-
-
 
   </div>
 
