@@ -41,7 +41,6 @@ Presented at: AAEA 2022, China Education Finance Research Forum 2023
 
 Maternal Migration and Early Child Development in Rural China  
 (with Yue Ma and Conner Mullally)  
-[Full Draft](#)  
 Presented at: SAEA 2023, AAEA 2022, WEAI 2022
 
 3G Network Expansion and Fertility Decisions in Nigeria  
@@ -55,7 +54,6 @@ Presented at: AAEA 2025
 
 Save the Children Yunnan Ludian Early Childhood Development Project (2019–2020) Evaluation Report  
 (with Yu Bai)  
-[Full Draft](#)
 
 ---
 
