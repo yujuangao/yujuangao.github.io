@@ -7,7 +7,7 @@ permalink: /
 # Yujuan Gao
 
 Ph.D. Candidate | Development Economics | Impact Evaluation | Data Science  
-[📧 Email](mailto:yujuan.gao@ufl.edu) | [🌐 Website](https://sites.google.com/view/yujuan-gao) | [🐦 Twitter](https://twitter.com/YOUR_TWITTER) | [🔗 LinkedIn](https://www.linkedin.com/in/yujuangao/) | [📚 Google Scholar](https://scholar.google.com/citations?user=YOURSCHOLARID) | [💻 GitHub](https://github.com/yujuangao?tab=repositories)
+[📧 Email](mailto:yujuan.gao@ufl.edu) | [🌐 Website](https://sites.google.com/view/yujuan-gao) | [🐦 X](https://twitter.com/YOUR_TWITTER) | [🔗 LinkedIn](https://www.linkedin.com/in/yujuangao/) | [📚 Google Scholar](https://scholar.google.com/citations?user=YOURSCHOLARID) | [💻 GitHub](https://github.com/yujuangao?tab=repositories)
 
 ---
 
