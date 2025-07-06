@@ -1,10 +1,14 @@
 title: Yujuan Gao
 email: yujuan.gao@ufl.edu
-description: >-
-  Personal website of Yujuan Gao. Development Economics, Impact Evaluation, and Causal Inference.
+description: >
+  Ph.D. Candidate in Development Economics
+
 baseurl: "" 
 url: "https://yujuangao.github.io"
 
 theme: minima
 
-github_username: yujuangao
+header_pages:
+  - index.md
+  - research.md
+  - teaching.md
