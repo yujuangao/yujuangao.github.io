@@ -1,24 +1,6 @@
 title: Yujuan Gao
-email: yujuan.gao@ufl.edu
-description: >
-  Ph.D. Candidate in Development Economics, Impact Evaluation, and Applied Econometrics.
-
-baseurl: ""  # This must be empty for personal GitHub Pages (username.github.io)
-url: "https://yujuangao.github.io"
-
 theme: minima
-
 header_pages:
   - index.md
   - research.md
   - teaching.md
-
-# Optional (but good practice):
-author: Yujuan Gao
-
-# Social media (optional for future use if you want to add icons via CSS or theme)
-social_links:
-  linkedin: https://www.linkedin.com/in/yujuangao/
-  github: https://github.com/yujuangao?tab=repositories
-  scholar: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
-  twitter: https://twitter.com/YOUR_TWITTER
