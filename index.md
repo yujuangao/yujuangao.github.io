@@ -15,5 +15,5 @@ I am currently a PhD candidate in the Food and Resource Economics Department at 
 
 I'm on the job market for 2024 - 2025. I am truly grateful to be advised by Conner Mullally, Scott Rozelle,  Jared Gars, and Xinde "James" Ji, who are kindly serving as references for me.  You can contact me at yujuan.gao@ufl.edu.
 
-[View my CV](CV_Yujuan%20Gao.pdf)
-[View my Resume](Resume.pdf)
+[View my CV](CV_Yujuan%20Gao.pdf)(Resume.pdf)
+
