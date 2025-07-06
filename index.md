@@ -12,17 +12,16 @@ permalink: /
 
   <div style="flex: 1; margin-left: 30px; min-width: 250px;">
 
-  # Yujuan Gao
+  ### Yujuan Gao
 
   I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.
 
   My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.
 
   **Download:**  
-  - [📄 Curriculum Vitae (CV)](CV_Yujuan%20Gao.pdf)  
-  - [📑 Resume](Resume.pdf)  
+  [📄 Curriculum Vitae (CV)](CV_Yujuan%20Gao.pdf) | [📑 Resume](Resume.pdf)
 
-  **Connect with me:**  
+  **Connect:**  
   [🔗 LinkedIn](https://www.linkedin.com/in/yujuangao/)  
   [📚 Google Scholar](https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID)  
   [🐦 Twitter](https://twitter.com/YOUR_TWITTER)  
