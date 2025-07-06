@@ -4,28 +4,30 @@ title: About Me
 permalink: /
 ---
 
-<div style="display: flex; align-items: center; flex-wrap: wrap; margin-top: 20px;">
+<div style="display: flex; align-items: flex-start; flex-wrap: wrap; margin-top: 20px;">
 
-  <div style="flex: 0 0 180px; text-align: center;">
-    <img src="yujuangao.jpg" alt="Yujuan Gao" style="border-radius: 50%; width: 160px; height: 160px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
+  <div style="flex: 0 0 200px; text-align: center;">
+    <img src="yujuangao.jpg" alt="Yujuan Gao" style="width: 200px; height: 200px; object-fit: cover; box-shadow: 0 0 8px rgba(0,0,0,0.1);">
   </div>
 
   <div style="flex: 1; margin-left: 30px; min-width: 250px;">
 
-  ### Yujuan Gao
+  <h3>Yujuan Gao</h3>
 
-  I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.
+  <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
 
-  My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.
+  <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
 
-  **Download:**  
-  [📄 Curriculum Vitae (CV)](CV_Yujuan%20Gao.pdf) | [📑 Resume](Resume.pdf)
+  <p><strong>Download:</strong><br>
+  📄 <a href="CV_Yujuan%20Gao.pdf">Curriculum Vitae (CV)</a> | 📑 <a href="Resume.pdf">Resume</a>
+  </p>
 
-  **Connect:**  
-  [🔗 LinkedIn](https://www.linkedin.com/in/yujuangao/)  
-  [📚 Google Scholar](https://scholar.google.com/citations?user=YOURREALID)  
-  [🐦 Twitter](https://twitter.com/YOURREALHANDLE)  
-  [💻 GitHub](https://github.com/yujuangao?tab=repositories)
+  <p><strong>Connect with me:</strong><br>
+  🔗 <a href="https://www.linkedin.com/in/yujuangao/">LinkedIn</a><br>
+  📚 <a href="https://scholar.google.com/citations?user=YOURREALID">Google Scholar</a><br>
+  🐦 <a href="https://twitter.com/YOURREALHANDLE">Twitter</a><br>
+  💻 <a href="https://github.com/yujuangao?tab=repositories">GitHub</a>
+  </p>
 
   </div>
 
