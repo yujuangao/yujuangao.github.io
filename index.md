@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-permalink: /
+permalink: /index
 ---
 
 # Yujuan Gao
