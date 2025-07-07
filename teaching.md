@@ -4,8 +4,6 @@ title: Teaching
 permalink: /teaching/
 ---
 
-# Teaching Experience
-
 | Course Title                                             | Role                         | Instructor                   | Year  |
 |----------------------------------------------------------|------------------------------|-------------------------------|--------|
 | AEB 3103 – Principles of Food & Resource Economics       | Teaching Assistant           | Prof. Xinde “James” Ji       | 2025   |
