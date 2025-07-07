@@ -59,4 +59,4 @@ Save the Children Yunnan Ludian Early Childhood Development Project (2019–2020
 
 Traffic Sign Classification using Convolutional Neural Networks  
 (with Thiago de Andrade, Rui Guo, Cody Haby)  
-[Full Draft](#)
+[Full Draft](https://github.com/yujuangao/Traffic-Sign-Classification/blob/42f00a4368b9c8c077e67da9d23cdf4ce0ee18e0/ProjectReport_TRYC.pdf)
