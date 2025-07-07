@@ -17,7 +17,7 @@ permalink: /
   <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
 
   <p><strong>Download:</strong><br>
-  📄 <a href="CV_Yujuan%20Gao.pdf">Curriculum Vitae (CV)</a> | 📑 <a href="Resume.pdf">Resume</a>
+  📄 <a href="CV_Yujuan Gao.pdf">Curriculum Vitae (CV)</a> | 📑 <a href="Resume_Yujuan Gao.pdf">Resume</a>
   </p>
 
   <p><strong>Connect with me:</strong><br>
