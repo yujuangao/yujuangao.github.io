@@ -1,9 +1,8 @@
 ---
 layout: page
+title: Research
 permalink: /research/
 ---
-
-# Research
 
 ## Job Market Paper
 
