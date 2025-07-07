@@ -23,7 +23,7 @@ permalink: /
   <p><strong>Connect with me:</strong><br>
   🔗 <a href="https://www.linkedin.com/in/yujuangao/">LinkedIn</a><br>
   📚 <a href="https://scholar.google.com/citations?user=YOURREALID">Google Scholar</a><br>
-  🐦 <a href="https://twitter.com/YOURREALHANDLE">Twitter</a><br>
+  🐦 <a href="https://twitter.com/gyj54321418">X</a><br>
   💻 <a href="https://github.com/yujuangao?tab=repositories">GitHub</a>
   </p>
 
