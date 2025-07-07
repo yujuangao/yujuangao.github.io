@@ -27,6 +27,11 @@ permalink: /
   💻 <a href="https://github.com/yujuangao?tab=repositories">GitHub</a>
   </p>
 
+  <hr>
+  <p style="text-align: center; font-size: 14px;">
+    📧 Contact: <a href="mailto:yujuan.gao@ufl.edu">yujuan.gao@ufl.edu</a>
+  </p>
+  
   </div>
 
 </div>
