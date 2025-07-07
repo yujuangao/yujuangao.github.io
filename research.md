@@ -43,7 +43,7 @@ Presented at: SAEA 2023, AAEA 2022, WEAI 2022
 
 3G Network Expansion and Fertility Decisions in Nigeria  
 (with Conner Mullally, Xinde Ji, Jared Gars)  
-[Full Draft](https://www.dropbox.com/scl/fi/pfhyodefjudcql85cup67/Broadband_and_Fertility_in_Nigeria.pdf?rlkey=saul6sz7gkdjcjgklc0ye9i4f&st=zjp1v8uy&dl=0)  
+[Full Draft](https://www.dropbox.com/scl/fi/kcghd49gd5rebetofdzkh/Broadband_and_Fertility_in_Nigeria.pdf?rlkey=jhjikvcu2lmw9f0eamrcu2uav&st=bic6qqtx&dl=0)  
 Presented at: AAEA 2025
 
 ---
