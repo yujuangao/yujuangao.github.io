@@ -13,7 +13,4 @@ permalink: /teaching/
 | AEB 3671 – Comparative World Agriculture                 | Teaching Assistant           | Prof. Jared Gars             | 2023   |
 | AEB 4283 – International Development Policy              | Teaching Assistant           | Prof. Conner Mullally        | 2022   |
 | AEB 4673 – International Agricultural Trade              | Teaching Assistant           | Prof. Conner Mullally        | 2022   |
-<hr>
-<p style="text-align: center; font-size: 14px;">
-  📧 Contact: <a href="mailto:yujuan.gao@ufl.edu">yujuan.gao@ufl.edu</a>
-</p>
+
