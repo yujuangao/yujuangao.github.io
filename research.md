@@ -37,13 +37,15 @@ Overcoming Parenting Barriers in Under-Resourced Communities with “Tips-by-Tex
 [Full Draft](https://ssrn.com/abstract=4969618)  
 Presented at: AAEA 2022, China Education Finance Research Forum 2023
 
-Maternal Migration and Early Child Development in Rural China  
-(with Yue Ma and Conner Mullally)  
-Presented at: SAEA 2023, AAEA 2022, WEAI 2022
+## Working in Progross
 
 3G Network Expansion and Fertility Decisions in Nigeria  
 (with Conner Mullally, Xinde Ji, Jared Gars)   
 Presented at: AAEA 2025
+
+Maternal Migration and Early Child Development in Rural China  
+(with Yue Ma and Conner Mullally)  
+Presented at: SAEA 2023, AAEA 2022, WEAI 2022
 
 ---
 
