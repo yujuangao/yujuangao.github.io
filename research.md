@@ -40,7 +40,8 @@ Presented at: AAEA 2022, China Education Finance Research Forum 2023
 ## Working in Progross
 
 3G Network Expansion and Fertility Decisions in Nigeria  
-(with Conner Mullally, Xinde Ji, Jared Gars)   
+(with Conner Mullally, Xinde Ji, Jared Gars)
+[Full Draft](https://www.dropbox.com/scl/fi/qji2by7izuma4aoylhh61/Broadband_and_Fertility_in_Nigeria-compressed.pdf?rlkey=flzoxw0uckk4h22sux8fs3hb7&dl=0)  
 Presented at: AAEA 2025
 
 Maternal Migration and Early Child Development in Rural China  
