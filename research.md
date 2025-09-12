@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Research
 permalink: /research/
 ---
 
@@ -66,7 +67,7 @@ permalink: /research/
 /* Featured papers with enhanced design */
 .featured-paper {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 240px 1fr;
   gap: 1.5rem;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -83,8 +84,9 @@ permalink: /research/
 }
 
 .featured-paper img {
-  width: 200px;
-  height: 140px;
+  width: 100%;
+  max-width: 240px;
+  height: 160px;
   object-fit: cover;
   border-radius: 8px;
   border: 1px solid var(--border-color);
@@ -255,15 +257,28 @@ details p {
   
   .featured-paper img {
     width: 100%;
+    max-width: 100%;
     height: 200px;
   }
   
   .hero-section {
     margin: -1rem -1rem 2rem;
+    padding: 1.5rem 1rem;
   }
   
   .research-container {
     padding: 0 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .featured-paper {
+    grid-template-columns: 200px 1fr;
+  }
+  
+  .featured-paper img {
+    width: 200px;
+    max-width: 200px;
   }
 }
 </style>
@@ -374,5 +389,11 @@ details p {
     <span class="tag">SAEA 2023</span>
     <span class="tag">AAEA 2022</span>
     <span class="tag">WEAI 2022</span>
+  </div>
+
+  <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--hover-color); border-radius: 12px;">
+    <p style="margin: 0; color: var(--muted-color); font-size: 1rem;">
+      Contact: <a href="mailto:yujuan.gao@ufl.edu" style="color: var(--accent-color); font-weight: 500;">yujuan.gao@ufl.edu</a>
+    </p>
   </div>
 </div>
