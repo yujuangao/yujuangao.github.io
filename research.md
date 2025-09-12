@@ -60,7 +60,8 @@ Overcoming Parenting Barriers in Under-Resourced Communities with “Tips-by-Tex
 (with Yue Ma)  
 [Full Draft](https://ssrn.com/abstract=4969618)  
 Presented at: AAEA 2022, China Education Finance Research Forum 2023
-**Abstract: **This paper evaluates a text messaging-based parenting program (Tips-by-Text) among 1,096 low-income mothers in 6 counties in rural northwestern China. Overall, our results show substantial, positive impacts of Tips-by-Text on parenting knowledge (ITT = 0.222 SD, p $<$ 0.01) and some critical stimulating parenting practices. While the average treatment effects on other parenting practices and early childhood development outcomes at ages 0-3 are statistically insignificant in the sample overall, we found large heterogeneities in the treatment effects consistent with three behavioral economics concepts: lack of information, inattention, and motivated cognition.
+
+**Abstract:** This paper evaluates a text messaging-based parenting program (Tips-by-Text) among 1,096 low-income mothers in 6 counties in rural northwestern China. Overall, our results show substantial, positive impacts of Tips-by-Text on parenting knowledge (ITT = 0.222 SD, p $<$ 0.01) and some critical stimulating parenting practices. While the average treatment effects on other parenting practices and early childhood development outcomes at ages 0-3 are statistically insignificant in the sample overall, we found large heterogeneities in the treatment effects consistent with three behavioral economics concepts: lack of information, inattention, and motivated cognition.
 
 ---
 
