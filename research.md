@@ -44,7 +44,7 @@ Ma, Yue, **Yujuan Gao**, Wang, Yue, et al. (2018).
 ## Working Papers
 3G Network Expansion and Fertility Decisions in Nigeria  
 (with Conner Mullally, Xinde Ji, Jared Gars)
-[Full Draft]([https://dx.doi.org/10.2139/ssrn.4828554](https://www.dropbox.com/scl/fi/qji2by7izuma4aoylhh61/Broadband_and_Fertility_in_Nigeria-compressed.pdf?rlkey=flzoxw0uckk4h22sux8fs3hb7&dl=0))  
+[Full Draft](https://www.dropbox.com/scl/fi/qji2by7izuma4aoylhh61/Broadband_and_Fertility_in_Nigeria-compressed.pdf?rlkey=flzoxw0uckk4h22sux8fs3hb7&dl=0)  
 Presented at: AAEA 2025; AEA 2026 (Scheduled)
 
 **Abstract:** This study examines how mobile internet access affects fertility in developing countries using Nigerian Demographic and Health Survey data (2013-2018) and 3G coverage information across 725 local government areas in a staggered rollout design. A one standard deviation increase in 3G coverage reduces birth probability among women aged 12-20 by 1.4-18 percentage points. Effects vary by reproductive history: mobile internet delays fertility among nulliparous women but increases subsequent fertility among young mothers. Mechanism analysis shows fertility reductions operate through delayed cohabitation and childbearing rather than contraceptive uptake. Mobile internet increases high-skill employment and enhances household bargaining power. Findings demonstrate that telecommunications infrastructure reduces fertility through economic empowerment rather than family planning channels, with implications for technology-mediated demographic transitions in developing economies.
