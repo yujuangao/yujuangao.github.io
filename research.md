@@ -1,6 +1,6 @@
 ---
 layout: page
-title:""
+title: " "
 permalink: /research/
 ---
 
@@ -393,6 +393,7 @@ details p {
 
   <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--hover-color); border-radius: 12px;">
     <p style="margin: 0; color: var(--muted-color); font-size: 1rem;">
+      <strong style="color: var(--primary-color);">Yujuan Gao</strong><br>
       Contact: <a href="mailto:yujuan.gao@ufl.edu" style="color: var(--accent-color); font-weight: 500;">yujuan.gao@ufl.edu</a>
     </p>
   </div>
