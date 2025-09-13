@@ -286,7 +286,6 @@ details p {
   </div>
 
   <div class="featured-paper">
-    <img src="{{ '/3G-coverage.png' | relative_url }}" alt="3G coverage expansion in Nigeria">
     <div class="paper-content">
       <h3>The Impact of 3G Network Coverage on Fertility Decisions and Infant Mortality in Nigeria</h3>
       <p class="paper-meta">with Conner Mullally, Xinde Ji, Jared Gars</p>
@@ -303,7 +302,6 @@ details p {
   </div>
 
   <div class="featured-paper">
-    <img src="{{ '/network-diagram.png' | relative_url }}" alt="Peer network spillover effects">
     <div class="paper-content">
       <h3>Unintended Consequences of Best Intentions: Examining Spillover Effects in Targeted Supplementary Education Interventions</h3>
       <p class="paper-meta">Job Market Paper</p>
