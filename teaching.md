@@ -248,7 +248,7 @@ permalink: /teaching/
   <div class="guest-lecture">
     <h3>Guest Lecture</h3>
     <p><strong>IDS 2935-22961 - How Do We End Poverty?</strong> (2023)</p>
-    <a href="[https://github.com/yujuangao/Slides.pdf](https://github.com/yujuangao/yujuangao.github.io/blob/a4d8b60a673f056021c841deb036189788e83caf/Slides.pdf)" class="btn">📊 View Lecture Slides</a>
+    <a href="Slides.pdf" class="btn">📊 View Lecture Slides</a>
   </div>
 
   <div class="section-header">
