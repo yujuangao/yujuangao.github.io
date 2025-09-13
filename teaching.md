@@ -215,7 +215,7 @@ permalink: /teaching/
 
     <h3>Guest Lecture</h3>
     <ul style="line-height: 1.8; margin: 1rem 0;">
-      <li><strong>IDS 2935-22961 - How Do We End Poverty?</strong> (2023) - <a href="Slides.pdf" style="color: var(--accent-color); text-decoration: none;">View Slides</a></li>
+      <li><strong>IDS 2935-22961 - How Do We End Poverty?</strong> (2023) - <a href="https://github.com/yujuangao/yujuangao.github.io/raw/main/Slides.pdf" style="color: var(--accent-color); text-decoration: none;" target="_blank">View Slides</a></li>
     </ul>
   </div>
 
