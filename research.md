@@ -259,6 +259,7 @@ details p {
     width: 100%;
     max-width: 100%;
     height: 180px;
+    order: -1;
   }
   
   .research-container {
@@ -268,12 +269,12 @@ details p {
 
 @media (max-width: 1024px) {
   .featured-paper {
-    grid-template-columns: 180px 1fr;
+    grid-template-columns: 1fr 160px;
   }
   
   .featured-paper img {
-    width: 180px;
-    max-width: 180px;
+    width: 160px;
+    max-width: 160px;
     height: 120px;
   }
 }
@@ -290,9 +291,13 @@ details p {
       <h3>The Impact of 3G Network Coverage on Fertility Decisions and Infant Mortality in Nigeria</h3>
       <p class="paper-meta">with Conner Mullally, Xinde Ji, Jared Gars</p>
       <div class="paper-actions">
-        <a href="https://www.dropbox.com/scl/fi/qji2by7izuma4aoylhh61/Broadband_and_Fertility_in_Nigeria-compressed.pdf?rlkey=flzoxw0uckk4h22sux8fs3hb7&dl=0" class="btn">📄 Full Draft</a>
-        <span class="tag">AAEA 2025</span>
-        <span class="tag">AEA 2026</span>
+        <div class="paper-buttons">
+          <a href="https://www.dropbox.com/scl/fi/qji2by7izuma4aoylhh61/Broadband_and_Fertility_in_Nigeria-compressed.pdf?rlkey=flzoxw0uckk4h22sux8fs3hb7&dl=0" class="btn">📄 Full Draft</a>
+        </div>
+        <div class="paper-tags">
+          <span class="tag">AAEA 2025</span>
+          <span class="tag">AEA 2026</span>
+        </div>
       </div>
       <details>
         <summary>📋 Abstract</summary>
@@ -306,10 +311,14 @@ details p {
       <h3>Unintended Consequences of Best Intentions: Examining Spillover Effects in Targeted Supplementary Education Interventions</h3>
       <p class="paper-meta">Job Market Paper</p>
       <div class="paper-actions">
-        <a href="https://www.dropbox.com/scl/fi/z1hparrh8ltcy1te3n7w1/Spillover_Effect.pdf?rlkey=5bcw0rvf4bmk1zjem7mh81mzd&st=1i97r34e&dl=0" class="btn">📄 Full Draft</a>
-        <span class="tag">ASSA 2025</span>
-        <span class="tag">AAEA 2025</span>
-        <span class="tag">APPAM 2024</span>
+        <div class="paper-buttons">
+          <a href="https://www.dropbox.com/scl/fi/z1hparrh8ltcy1te3n7w1/Spillover_Effect.pdf?rlkey=5bcw0rvf4bmk1zjem7mh81mzd&st=1i97r34e&dl=0" class="btn">📄 Full Draft</a>
+        </div>
+        <div class="paper-tags">
+          <span class="tag">ASSA 2025</span>
+          <span class="tag">AAEA 2025</span>
+          <span class="tag">APPAM 2024</span>
+        </div>
       </div>
       <details>
         <summary>📋 Abstract</summary>
