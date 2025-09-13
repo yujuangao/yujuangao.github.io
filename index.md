@@ -279,8 +279,9 @@ permalink: /
         <a href="mailto:yujuan.gao@ufl.edu">yujuan.gao@ufl.edu</a>
       </div>
       <p style="margin-top: 1rem; color: var(--muted-color); font-size: 0.95rem; padding-left: 0.5rem;">
-        University of Florida<br>
-        Food and Resource Economics Department
+        🏢 G125 McCarty Hall B<br>
+        PO Box 110240<br>
+        Gainesville, FL 32611-0240
       </p>
     </div>
   </div>
