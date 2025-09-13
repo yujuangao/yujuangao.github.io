@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ""
+title: Research
 permalink: /research/
 ---
 
@@ -258,7 +258,7 @@ details p {
   .featured-paper img {
     width: 100%;
     max-width: 100%;
-    height: 200px;
+    height: 220px;
   }
   
   .hero-section {
@@ -273,12 +273,13 @@ details p {
 
 @media (max-width: 1024px) {
   .featured-paper {
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 240px 1fr;
   }
   
   .featured-paper img {
-    width: 200px;
-    max-width: 200px;
+    width: 240px;
+    max-width: 240px;
+    height: 160px;
   }
 }
 </style>
