@@ -359,7 +359,6 @@ details p {
     <p class="authors">with Yue Ma and Susanna Loeb</p>
     <a href="https://ssrn.com/abstract=4969618" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">AAEA 2022</span>
-    <span class="tag">China Education Finance 2023</span>
   </div>
 
   <div class="section-header">
