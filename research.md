@@ -258,7 +258,7 @@ details p {
   .featured-paper img {
     width: 100%;
     max-width: 100%;
-    height: 220px;
+    height: 250px;
   }
   
   .hero-section {
@@ -273,23 +273,18 @@ details p {
 
 @media (max-width: 1024px) {
   .featured-paper {
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 280px 1fr;
   }
   
   .featured-paper img {
-    width: 240px;
-    max-width: 240px;
-    height: 160px;
+    width: 280px;
+    max-width: 280px;
+    height: 180px;
   }
 }
 </style>
 
 <div class="research-container">
-  <div class="hero-section">
-    <h1>Yujuan Gao</h1>
-    <p class="subtitle">Development Economics • Education • Digital Infrastructure</p>
-  </div>
-
   <div class="section-header">
     <span class="icon">⭐</span>
     <h2>Featured Research</h2>
