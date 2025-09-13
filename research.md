@@ -346,12 +346,29 @@ details p {
   </div>
 
   <div class="working-paper">
+    <h4>The Impact of 3G Network Coverage on Fertility Decisions and Infant Mortality in Nigeria</h4>
+    <p class="authors">with Conner Mullally, Xinde Ji, Jared Gars</p>
+    <a href="https://www.dropbox.com/scl/fi/pfhyodefjudcql85cup67/Broadband_and_Fertility_in_Nigeria.pdf" class="btn btn-outline">📄 SSRN Draft</a>
+    <span class="tag">NEUDC 2023</span>
+    <span class="tag">PacDev 2024</span>
+    <span class="tag">AAEA 2024</span>
+    <details>
+      <summary>📋 Abstract</summary>
+      <p>This study examines how mobile internet access affects fertility in developing countries using Nigerian Demographic and Health Survey data (2013-2018) and 3G coverage information across 725 local government areas in a staggered rollout design. A one standard deviation increase in 3G coverage reduces birth probability among women aged 12-20 by 1.4-18 percentage points. Effects vary by reproductive history: mobile internet delays fertility among nulliparous women but increases subsequent fertility among young mothers. Mechanism analysis shows fertility reductions operate through delayed cohabitation and childbearing rather than contraceptive uptake. Mobile internet increases high-skill employment and enhances household bargaining power. Findings demonstrate that telecommunications infrastructure reduces fertility through economic empowerment rather than family planning channels, with implications for technology-mediated demographic transitions in developing economies.</p>
+    </details>
+  </div>
+
+  <div class="working-paper">
     <h4>Friendship Formation and Peer Effect: Using Seat Distribution as an Instrument</h4>
     <p class="authors">with Yu Bai and Scott Rozelle</p>
     <a href="https://dx.doi.org/10.2139/ssrn.4828554" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">NEUDC 2023</span>
     <span class="tag">PacDev 2024</span>
     <span class="tag">AAEA 2024</span>
+    <details>
+      <summary>📋 Abstract</summary>
+      <p>This study investigates peer effects on academic performance using network theory and instrumental variables with 2,956 primary school students in rural China. Study groups significantly enhance achievement by 0.11 standard deviations, with stronger effects among male students, lower performers, and cohesive groups. Mediation analysis identifies intrinsic motivation as the primary mechanism driving peer effects through enhanced autonomous learning behaviors. Results suggest that optimizing spatial proximity in peer networks represents a cost-efficient policy instrument for human capital accumulation in resource-constrained settings, leveraging existing human capital without substantial additional inputs.</p>
+    </details>
   </div>
 
   <div class="working-paper">
@@ -359,6 +376,11 @@ details p {
     <p class="authors">with Yue Ma and Susanna Loeb</p>
     <a href="https://ssrn.com/abstract=4969618" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">AAEA 2022</span>
+    <span class="tag">China Education Finance 2023</span>
+    <details>
+      <summary>📋 Abstract</summary>
+      <p>This paper evaluates a text messaging-based parenting program (Tips-by-Text) among 1,096 low-income mothers in 6 counties in rural northwestern China. Overall, our results show substantial, positive impacts of Tips-by-Text on parenting knowledge (ITT = 0.222 SD, p < 0.01) and some critical stimulating parenting practices. While the average treatment effects on other parenting practices and early childhood development outcomes at ages 0-3 are statistically insignificant in the sample overall, we found large heterogeneities in the treatment effects consistent with three behavioral economics concepts: lack of information, inattention, and motivated cognition.</p>
+    </details>
   </div>
 
   <div class="section-header">
