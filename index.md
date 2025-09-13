@@ -228,6 +228,8 @@ permalink: /
         <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
         
         <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
+
+        <p>I'm on the Job Market for 2025-2026</p>
       </div>
     </div>
   </div>
