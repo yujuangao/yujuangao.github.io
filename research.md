@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Research"
+title: ""
 permalink: /research/
 ---
 
@@ -89,7 +89,7 @@ permalink: /research/
   height: 160px;
   object-fit: cover;
   border-radius: 8px;
-  border: 1px solid var(--border-color);
+  border: none;
 }
 
 .paper-content h3 {
