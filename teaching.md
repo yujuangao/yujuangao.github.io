@@ -291,9 +291,6 @@ permalink: /teaching/
     
     <p class="note">
       <strong>Note:</strong> 27 students evaluated the lecture. Scores based on 10-point scale. 
-      Detailed teaching evaluation data is available in the 
-      <a href="https://github.com/yujuangao/teaching-evaluation" style="color: var(--accent-color);">teaching-evaluation repository</a> 
-      on GitHub.
     </p>
   </div>
 
