@@ -258,12 +258,7 @@ details p {
   .featured-paper img {
     width: 100%;
     max-width: 100%;
-    height: 250px;
-  }
-  
-  .hero-section {
-    margin: -1rem -1rem 2rem;
-    padding: 1.5rem 1rem;
+    height: 180px;
   }
   
   .research-container {
@@ -273,13 +268,13 @@ details p {
 
 @media (max-width: 1024px) {
   .featured-paper {
-    grid-template-columns: 280px 1fr;
+    grid-template-columns: 180px 1fr;
   }
   
   .featured-paper img {
-    width: 280px;
-    max-width: 280px;
-    height: 180px;
+    width: 180px;
+    max-width: 180px;
+    height: 120px;
   }
 }
 </style>
