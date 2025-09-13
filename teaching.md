@@ -184,6 +184,19 @@ permalink: /teaching/
 
 <div class="teaching-container">
   <div class="section-header">
+    <span class="icon">🎯</span>
+    <h2>Teaching Statement</h2>
+  </div>
+
+  <div class="evaluation-section">
+    <p><strong>Teaching Interests:</strong> Microeconomics, Econometrics, Applied Statistics, Economics of Education, Development Economics, Health Economics</p>
+    
+    <p>My teaching philosophy centers on making complex economic concepts accessible through clear explanations, real-world applications, and interactive learning approaches. I believe in connecting theoretical frameworks to practical policy applications and helping students understand how economic principles apply to contemporary challenges.</p>
+    
+    <p>As an educator, I strive to create an engaging classroom environment that encourages critical thinking and active participation. My experience as a teaching assistant across multiple economics courses has reinforced my commitment to supporting student learning through personalized guidance and responsive instruction.</p>
+  </div>
+
+  <div class="section-header">
     <span class="icon">🎓</span>
     <h2>Teaching Assistant Experience</h2>
   </div>
