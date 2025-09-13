@@ -67,8 +67,8 @@ permalink: /research/
 /* Featured papers with enhanced design */
 .featured-paper {
   display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 1.5rem;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
   padding: 1.5rem;
   margin-bottom: 2rem;
   background: white;
@@ -85,8 +85,8 @@ permalink: /research/
 
 .featured-paper img {
   width: 100%;
-  max-width: 240px;
-  height: 160px;
+  max-width: 280px;
+  height: 180px;
   object-fit: cover;
   border-radius: 8px;
   border: none;
@@ -286,7 +286,7 @@ details p {
 
 <div class="research-container">
   <div class="hero-section">
-    <h1>Research Portfolio</h1>
+    <h1>Yujuan Gao</h1>
     <p class="subtitle">Development Economics • Education • Digital Infrastructure</p>
   </div>
 
