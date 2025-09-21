@@ -228,7 +228,7 @@ permalink: /
         <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
         
         <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
-
+        <p>I also serve as a Research Assistant at <a href="[https://www.linkedin.com/in/yujuangao](https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1)/">the Freeman Spogli Institute for International Studies, Stanford University.</a></p>
         <p>I'm on the Job Market for 2025-2026</p>
       </div>
     </div>
