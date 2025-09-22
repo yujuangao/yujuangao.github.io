@@ -258,49 +258,49 @@ permalink: /teaching/
           AEB 3103 - Principles of Food & Resource Economics
           <span class="course-level">• Undergraduate</span>
         </div>
-        <div class="course-details">2025 • Prof. Xinde "James" Ji</div>
+        <div class="course-details">2025</div>
       </li>
       <li class="course-item">
         <div class="course-title">
           AEB 3341 - Selling Strategically
           <span class="course-level">• Undergraduate</span>
         </div>
-        <div class="course-details">2024 • Prof. John Lai</div>
+        <div class="course-details">2024</div>
       </li>
       <li class="course-item">
         <div class="course-title">
           AEB 3133 - Principles of Agribusiness Management
           <span class="course-level">• Undergraduate</span>
         </div>
-        <div class="course-details">2023 • Prof. Xumin Zhang</div>
+        <div class="course-details">2023</div>
       </li>
       <li class="course-item">
         <div class="course-title">
           AEB 3671 - Comparative World Agriculture
           <span class="course-level">• Undergraduate</span>
         </div>
-        <div class="course-details">2023 • Prof. Jared Gars</div>
+        <div class="course-details">2023</div>
       </li>
       <li class="course-item">
         <div class="course-title">
           AEB 4138 - Advanced Agribusiness Management
           <span class="course-level">• Undergraduate</span>
         </div>
-        <div class="course-details">2022 • Prof. Jaclyn Kropp</div>
+        <div class="course-details">2022</div>
       </li>
       <li class="course-item">
         <div class="course-title">
           AEB 4673 - International Agricultural Trade
           <span class="course-level">• Undergraduate</span>
         </div>
-        <div class="course-details">2022 • Prof. Conner Mullally</div>
+        <div class="course-details">2022</div>
       </li>
       <li class="course-item">
         <div class="course-title">
           AEB 4283 - International Development Policy
           <span class="course-level">• Undergraduate</span>
         </div>
-        <div class="course-details">2021 • Prof. Conner Mullally</div>
+        <div class="course-details">2021</div>
       </li>
     </ul>
 
