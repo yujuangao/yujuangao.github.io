@@ -3,12 +3,13 @@ layout: page
 title: Teaching
 permalink: /teaching/
 ---
-
 <style>
 :root {
   --primary-color: #2c3e50;
   --accent-color: #3498db;
   --text-color: #2c3e50;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
   --muted-color: #7f8c8d;
   --border-color: #ecf0f1;
   --hover-color: #f8f9fa;
@@ -39,14 +40,16 @@ permalink: /teaching/
 
 .section-header .icon {
   font-size: 1.5rem;
-  margin-right: 0.5rem;
+  margin-right: 0.75rem;
   color: var(--accent-color);
 }
 
-.courses-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 1.5rem;
+.evaluation-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+  border: 1px solid var(--border-color);
   margin: 2rem 0;
 }
 
@@ -58,6 +61,7 @@ permalink: /teaching/
   border: 1px solid var(--border-color);
   border-left: 4px solid var(--accent-color);
   transition: all 0.3s ease;
+  margin: 2rem 0;
 }
 
 .course-card:hover {
@@ -70,6 +74,7 @@ permalink: /teaching/
   font-weight: 600;
   color: var(--primary-color);
   margin: 0 0 0.5rem;
+  line-height: 1.4;
 }
 
 .course-meta {
@@ -83,52 +88,102 @@ permalink: /teaching/
   font-weight: 500;
 }
 
-.guest-lecture {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
-  padding: 2rem;
-  border-radius: 12px;
-  margin: 2rem 0;
-  text-align: center;
+/* Timeline styles for teaching experience */
+.course-list {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.guest-lecture h3 {
-  margin: 0 0 1rem;
-  font-size: 1.4rem;
+.course-list::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--border-color);
+}
+
+.course-item {
+  position: relative;
+  margin: 0 0 1.5rem 2rem;
+  padding: 0;
+}
+
+.course-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.5rem;
+  width: 3px;
+  height: 3px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.course-item .course-title {
+  font-size: 1rem;
   font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 0.25rem 0;
 }
 
-.guest-lecture p {
-  margin: 0 0 1.5rem;
-  opacity: 0.95;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  background: rgba(255,255,255,0.2);
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
+.course-level {
+  display: inline;
   font-weight: 500;
-  transition: all 0.2s ease;
-  border: 1px solid rgba(255,255,255,0.3);
+  color: var(--text-secondary);
+  margin-left: 0.5rem;
 }
 
-.btn:hover {
-  background: rgba(255,255,255,0.3);
-  transform: translateY(-1px);
-  color: white;
+.course-details {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.guest-lecture-section {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.guest-lecture-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 1.5rem 0;
+}
+
+.lecture-item {
+  position: relative;
+  margin: 0 0 1rem 2rem;
+  padding: 0;
+}
+
+.lecture-item::before {
+  content: '';
+  position: absolute;
+  left: -2rem;
+  top: 0.5rem;
+  width: 3px;
+  height: 3px;
+  background: var(--accent-color);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.lecture-link {
+  color: var(--accent-color);
   text-decoration: none;
+  font-weight: 500;
 }
 
-.evaluation-section {
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
-  border: 1px solid var(--border-color);
-  margin: 2rem 0;
+.lecture-link:hover {
+  text-decoration: underline;
 }
 
 .evaluation-table {
@@ -163,10 +218,6 @@ permalink: /teaching/
 
 /* Responsive design */
 @media (max-width: 768px) {
-  .courses-grid {
-    grid-template-columns: 1fr;
-  }
-  
   .teaching-container {
     padding: 0 1rem;
   }
@@ -187,7 +238,6 @@ permalink: /teaching/
     <span class="icon">🎯</span>
     <h2>Teaching Statement</h2>
   </div>
-
   <div class="evaluation-section">
     <p><strong>Teaching Interests:</strong> Microeconomics, Econometrics, Applied Statistics, Economics of Education, Development Economics, Health Economics</p>
     
@@ -196,324 +246,84 @@ permalink: /teaching/
     <p>As an educator, I strive to create an engaging classroom environment that encourages critical thinking and active participation. My experience as a teaching assistant across multiple economics courses has reinforced my commitment to supporting student learning through personalized guidance and responsive instruction.</p>
   </div>
 
-<style>
-        :root {
-            --accent-color: #2563eb;
-            --text-primary: #1f2937;
-            --text-secondary: #6b7280;
-            --border-color: #e5e7eb;
-        }
-        
-        .section-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1.5rem;
-        }
-        
-        .section-header .icon {
-            font-size: 1.5rem;
-            margin-right: 0.75rem;
-        }
-        
-        .section-header h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin: 0;
-        }
+  <div class="section-header">
+    <span class="icon">🎓</span>
+    <h2>Teaching Experience</h2>
+  </div>
+  
+  <div class="evaluation-section">
+    <ul class="course-list">
+      <li class="course-item">
+        <div class="course-title">
+          AEB 3103 - Principles of Food & Resource Economics
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">2025 • Prof. Xinde "James" Ji</div>
+      </li>
+      <li class="course-item">
+        <div class="course-title">
+          AEB 3341 - Selling Strategically
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">2024 • Prof. John Lai</div>
+      </li>
+      <li class="course-item">
+        <div class="course-title">
+          AEB 3133 - Principles of Agribusiness Management
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">2023 • Prof. Xumin Zhang</div>
+      </li>
+      <li class="course-item">
+        <div class="course-title">
+          AEB 3671 - Comparative World Agriculture
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">2023 • Prof. Jared Gars</div>
+      </li>
+      <li class="course-item">
+        <div class="course-title">
+          AEB 4138 - Advanced Agribusiness Management
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">2022 • Prof. Jaclyn Kropp</div>
+      </li>
+      <li class="course-item">
+        <div class="course-title">
+          AEB 4673 - International Agricultural Trade
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">2022 • Prof. Conner Mullally</div>
+      </li>
+      <li class="course-item">
+        <div class="course-title">
+          AEB 4283 - International Development Policy
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">2021 • Prof. Conner Mullally</div>
+      </li>
+    </ul>
 
-        .evaluation-section {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 2rem;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-        }
-
-        .section-title {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin: 0 0 2rem 0;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 0.5rem;
-        }
-
-        .institution {
-            margin-bottom: 2.5rem;
-        }
-
-        .institution:last-child {
-            margin-bottom: 0;
-        }
-
-        .institution-name {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin: 0 0 1.5rem 0;
-        }
-
-        .course-list {
-            position: relative;
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-
-        .course-list::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            width: 3px;
-            background: var(--border-color);
-        }
-
-        .course-item {
-            position: relative;
-            margin: 0 0 1.5rem 2rem;
-            padding: 0;
-        }
-
-        .course-item::before {
-            content: '';
-            position: absolute;
-            left: -2rem;
-            top: 0.5rem;
-            width: 3px;
-            height: 3px;
-            background: var(--accent-color);
-            border-radius: 50%;
-            transform: translateX(-50%);
-        }
-
-        .course-title {
-            font-size: 1rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin: 0 0 0.25rem 0;
-            line-height: 1.4;
-        }
-
-        .course-level {
-            display: inline;
-            font-weight: 500;
-            color: var(--text-secondary);
-            margin-left: 0.5rem;
-        }
-
-        .course-details {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            margin: 0;
-            line-height: 1.4;
-        }
-
-        .guest-lecture-section {
-            margin-top: 2.5rem;
-            padding-top: 2rem;
-            border-top: 1px solid var(--border-color);
-        }
-
-        .guest-lecture-title {
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--text-primary);
-            margin: 0 0 1.5rem 0;
-        }
-
-        .lecture-item {
-            position: relative;
-            margin: 0 0 1rem 2rem;
-            padding: 0;
-        }
-
-        .lecture-item::before {
-            content: '';
-            position: absolute;
-            left: -2rem;
-            top: 0.5rem;
-            width: 3px;
-            height: 3px;
-            background: var(--accent-color);
-            border-radius: 50%;
-            transform: translateX(-50%);
-        }
-
-        .lecture-link {
-            color: var(--accent-color);
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .lecture-link:hover {
-            text-decoration: underline;
-        }
-    </style>
-
-    <div class="section-header">
-        <span class="icon">🎓</span>
-        <h2>Teaching Experience</h2>
+    <div class="guest-lecture-section">
+      <h3 class="guest-lecture-title">Guest Lecture</h3>
+      <ul class="course-list">
+        <li class="lecture-item">
+          <div class="course-title">
+            IDS 2935-22961 - How Do We End Poverty?
+            <span class="course-level">• Undergraduate</span>
+          </div>
+          <div class="course-details">
+            2023 • <a href="https://github.com/yujuangao/yujuangao.github.io/raw/main/Slides.pdf" class="lecture-link" target="_blank">View Slides</a>
+          </div>
+        </li>
+      </ul>
     </div>
-    
-    <div class="evaluation-section">
-        
-        <div class="institution">
-            <ul class="course-list">
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3103 - Principles of Food & Resource Economics
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2025 • Prof. Xinde "James" Ji</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3341 - Selling Strategically
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2024 • Prof. John Lai</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3133 - Principles of Agribusiness Management
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2023 • Prof. Xumin Zhang</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3671 - Comparative World Agriculture
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2023 • Prof. Jared Gars</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 4138 - Advanced Agribusiness Management
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2022 • Prof. Jaclyn Kropp</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 4673 - International Agricultural Trade
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2022 • Prof. Conner Mullally</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 4283 - International Development Policy
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2021 • Prof. Conner Mullally</div>
-                </li>
-            </ul>
-        </div>
-
-        <div class="guest-lecture-section">
-            <h3 class="guest-lecture-title">Guest Lecture</h3>
-            <ul class="course-list">
-                <li class="lecture-item">
-                    <div class="course-title">
-                        IDS 2935-22961 - How Do We End Poverty?
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">
-                        2023 • <a href="https://github.com/yujuangao/yujuangao.github.io/raw/main/Slides.pdf" class="lecture-link" target="_blank">View Slides</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</head>
-<body>
-    <div class="evaluation-section">
-        <h2 class="section-title">Teaching Experience (TA)</h2>
-        
-        <div class="institution">
-            <h3 class="institution-name">University of Florida</h3>
-            <ul class="course-list">
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3103 - Principles of Food & Resource Economics
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2025 • Prof. Xinde "James" Ji</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3341 - Selling Strategically
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2024 • Prof. John Lai</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3133 - Principles of Agribusiness Management
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2023 • Prof. Xumin Zhang</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 3671 - Comparative World Agriculture
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2023 • Prof. Jared Gars</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 4138 - Advanced Agribusiness Management
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2022 • Prof. Jaclyn Kropp</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 4673 - International Agricultural Trade
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2022 • Prof. Conner Mullally</div>
-                </li>
-                <li class="course-item">
-                    <div class="course-title">
-                        AEB 4283 - International Development Policy
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">2021 • Prof. Conner Mullally</div>
-                </li>
-            </ul>
-        </div>
-
-        <div class="guest-lecture-section">
-            <h3 class="guest-lecture-title">Guest Lecture</h3>
-            <ul class="course-list">
-                <li class="lecture-item">
-                    <div class="course-title">
-                        IDS 2935-22961 - How Do We End Poverty?
-                        <span class="course-level">• Undergraduate</span>
-                    </div>
-                    <div class="course-details">
-                        2023 • <a href="https://github.com/yujuangao/yujuangao.github.io/raw/main/Slides.pdf" class="lecture-link" target="_blank">View Slides</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</body>
-</html>
+  </div>
 
   <div class="section-header">
     <span class="icon">📊</span>
     <h2>Teaching Evaluations</h2>
   </div>
-
   <div class="evaluation-section">
     <p>Student feedback from my guest lecture on poverty reduction strategies:</p>
     
@@ -588,7 +398,6 @@ permalink: /teaching/
     <span class="icon">🏆</span>
     <h2>Professional Development</h2>
   </div>
-
   <div class="course-card">
     <h3 class="course-title">Preparing Future Faculty Program</h3>
     <p class="course-meta">Center for Teaching Excellence, University of Florida</p>
