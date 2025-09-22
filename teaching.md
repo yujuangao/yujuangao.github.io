@@ -196,23 +196,30 @@ permalink: /teaching/
     <p>As an educator, I strive to create an engaging classroom environment that encourages critical thinking and active participation. My experience as a teaching assistant across multiple economics courses has reinforced my commitment to supporting student learning through personalized guidance and responsive instruction.</p>
   </div>
 
-  <div class="section-header">
-    <span class="icon">🎓</span>
-    <h2>Teaching Experience</h2>
-  </div>
-
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teaching Experience</title>
-    <style>
+<style>
         :root {
             --accent-color: #2563eb;
             --text-primary: #1f2937;
             --text-secondary: #6b7280;
             --border-color: #e5e7eb;
+        }
+        
+        .section-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .section-header .icon {
+            font-size: 1.5rem;
+            margin-right: 0.75rem;
+        }
+        
+        .section-header h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin: 0;
         }
 
         .evaluation-section {
@@ -347,6 +354,83 @@ permalink: /teaching/
             text-decoration: underline;
         }
     </style>
+
+    <div class="section-header">
+        <span class="icon">🎓</span>
+        <h2>Teaching Experience</h2>
+    </div>
+    
+    <div class="evaluation-section">
+        
+        <div class="institution">
+            <ul class="course-list">
+                <li class="course-item">
+                    <div class="course-title">
+                        AEB 3103 - Principles of Food & Resource Economics
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">2025 • Prof. Xinde "James" Ji</div>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">
+                        AEB 3341 - Selling Strategically
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">2024 • Prof. John Lai</div>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">
+                        AEB 3133 - Principles of Agribusiness Management
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">2023 • Prof. Xumin Zhang</div>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">
+                        AEB 3671 - Comparative World Agriculture
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">2023 • Prof. Jared Gars</div>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">
+                        AEB 4138 - Advanced Agribusiness Management
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">2022 • Prof. Jaclyn Kropp</div>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">
+                        AEB 4673 - International Agricultural Trade
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">2022 • Prof. Conner Mullally</div>
+                </li>
+                <li class="course-item">
+                    <div class="course-title">
+                        AEB 4283 - International Development Policy
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">2021 • Prof. Conner Mullally</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="guest-lecture-section">
+            <h3 class="guest-lecture-title">Guest Lecture</h3>
+            <ul class="course-list">
+                <li class="lecture-item">
+                    <div class="course-title">
+                        IDS 2935-22961 - How Do We End Poverty?
+                        <span class="course-level">• Undergraduate</span>
+                    </div>
+                    <div class="course-details">
+                        2023 • <a href="https://github.com/yujuangao/yujuangao.github.io/raw/main/Slides.pdf" class="lecture-link" target="_blank">View Slides</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </head>
 <body>
     <div class="evaluation-section">
