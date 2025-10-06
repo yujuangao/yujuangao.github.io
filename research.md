@@ -384,6 +384,21 @@ details p {
     <span class="tag">WEAI 2022</span>
   </div>
 
+   <div class="section-header">
+    <span class="icon">⚡</span>
+    <h2>Machine Learning Project</h2>
+  </div>
+
+  <div class="working-paper">
+    <h4>Traffic Sign Classification</h4>
+    <p class="authors">with Thiago de Andrade & Rui Guo & Cody Haby</p>
+    <a href="[https://dx.doi.org/10.2139/ssrn.4828554](https://github.com/yujuangao/yujuangao.github.io/blob/9be82dffac942fab8a0d317c5a7ebe9b414e9159/ProjectReport_TRYC.pdf)" class="btn btn-outline">Draft</a>
+    <details>
+      <summary>📋 Abstract</summary>
+      <p>This paper details the development of a Convolutional Neural Network (CNN), a shift invariant artificial neural network (SIANN) utilizing convolution operations instead of matrix multiplication, with the goal of classifying ten unique traffic signs. A well-balanced data set of photos with equivalent resolution was used to train and validate the neural network to determine appropriate hyperparameters for optimal performance, accurate classification greater than ninety percent. The CNN was developed using packages found within the Tensorflow library in Python, including convolution, pooling, and dense layers. Additionally, this paper documents specific experiments conducted during the design and training which led to the final architecture of the neural network. The CNN will be shown to have an accuracy of greater than ninety-four (94) percent during training and validation.</p>
+    </details>
+  </div>
+
   <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--hover-color); border-radius: 12px;">
     <p style="margin: 0; color: var(--muted-color); font-size: 1rem;">
       <strong style="color: var(--primary-color);">Yujuan Gao</strong><br>
