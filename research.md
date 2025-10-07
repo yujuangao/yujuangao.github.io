@@ -386,6 +386,16 @@ details p {
 
    <div class="section-header">
     <span class="icon">⚡</span>
+    <h2>Policy and Outreach Writing</h2>
+  </div>
+
+  <div class="working-paper">
+    <h4>Save the Children Yunnan Ludian 0-3 Years Early Childhood Development Project (2019-2020) Evaluation Report.</h4>
+    <p class="authors">with Yu Bai</p>
+  </div>
+
+   <div class="section-header">
+    <span class="icon">⚡</span>
     <h2>Machine Learning Project</h2>
   </div>
 
