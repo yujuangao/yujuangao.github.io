@@ -278,7 +278,7 @@ details p {
       <p class="paper-meta">with Conner Mullally, Xinde Ji, Jared Gars</p>
       <div class="paper-actions">
         <div class="paper-buttons">
-          <a href="https://www.dropbox.com/scl/fi/qji2by7izuma4aoylhh61/Broadband_and_Fertility_in_Nigeria-compressed.pdf?rlkey=flzoxw0uckk4h22sux8fs3hb7&dl=0" class="btn">📄 Full Draft</a>
+          <a href="https://www.dropbox.com/scl/fi/kcghd49gd5rebetofdzkh/Broadband_and_Fertility_in_Nigeria.pdf?rlkey=jhjikvcu2lmw9f0eamrcu2uav&st=dja6xw13&dl=0" class="btn">📄 Full Draft</a>
         </div>
         <div class="paper-tags">
           <span class="tag">AAEA 2025</span>
