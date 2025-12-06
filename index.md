@@ -232,6 +232,7 @@ permalink: /
         <p>I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
 
         <p>I'm on the Job Market for 2025-2026</p>
+        
       </div>
     </div>
   </div>
