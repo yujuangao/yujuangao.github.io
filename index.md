@@ -64,43 +64,6 @@ permalink: /
   font-size: 1.05rem;
 }
 
-/* --- PDF VIEWER STYLES --- */
-.pdf-section {
-  margin-top: 2rem;
-}
-
-.pdf-container {
-  margin-bottom: 3rem;
-  background: white;
-  border-radius: 12px;
-  border: 1px solid var(--border-color);
-  overflow: hidden; /* Ensures iframe corners match border radius */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-.pdf-header {
-  padding: 1rem 1.5rem;
-  background: #f8f9fa;
-  border-bottom: 1px solid var(--border-color);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.pdf-header h3 {
-  margin: 0;
-  font-size: 1.1rem;
-  color: var(--primary-color);
-  font-weight: 600;
-}
-
-.pdf-frame {
-  width: 100%;
-  height: 600px;
-  border: none;
-  display: block;
-}
-
 .section-header {
   display: flex;
   align-items: center;
@@ -187,18 +150,37 @@ permalink: /
   text-decoration: underline;
 }
 
-.download-btn {
-  font-size: 0.9rem;
-  color: var(--accent-color);
-  text-decoration: none;
-  font-weight: 500;
-  border: 1px solid var(--accent-color);
-  padding: 0.3rem 0.8rem;
-  border-radius: 4px;
-  transition: all 0.2s;
+.download-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 
-.download-btn:hover {
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background: #2980b9;
+  transform: translateY(-1px);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+
+.btn-outline:hover {
   background: var(--accent-color);
   color: white;
 }
@@ -223,6 +205,10 @@ permalink: /
   
   .links-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .download-buttons {
+    flex-direction: column;
   }
   
   .about-container {
@@ -252,28 +238,13 @@ permalink: /
 
   <div class="section-header">
     <span class="icon">📄</span>
-    <h2>Curriculum Vitae</h2>
+    <h2>Documents</h2>
   </div>
   
-  <div class="pdf-container">
-    <div class="pdf-header">
-      <h3>Yujuan Gao - CV</h3>
-      <a href="https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf" class="download-btn">⬇️ Download PDF</a>
-    </div>
-    <iframe class="pdf-frame" src="https://docs.google.com/gview?url=https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf&embedded=true" frameborder="0"></iframe>
-  </div>
-
-  <div class="section-header">
-    <span class="icon">📑</span>
-    <h2>Resume</h2>
-  </div>
-
-  <div class="pdf-container">
-    <div class="pdf-header">
-      <h3>Yujuan Gao - Resume</h3>
-      <a href="https://github.com/yujuangao/CV_App-usage/raw/main/Yujuan_Gao_Resume.pdf" class="download-btn">⬇️ Download PDF</a>
-    </div>
-    <iframe class="pdf-frame" src="https://docs.google.com/gview?url=https://github.com/yujuangao/CV_App-usage/raw/main/Yujuan_Gao_Resume.pdf&embedded=true" frameborder="0"></iframe>
+  <div class="download-buttons">
+    <a href="https://docs.google.com/viewer?url=https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf" target="_blank" class="btn">📄 View CV</a>
+    
+    <a href="https://docs.google.com/viewer?url=https://github.com/yujuangao/CV_App-usage/raw/main/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">📑 View Resume</a>
   </div>
 
   <div class="section-header">
