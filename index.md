@@ -154,6 +154,7 @@ permalink: /
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .btn {
@@ -165,6 +166,8 @@ permalink: /
   border-radius: 6px;
   font-weight: 500;
   transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
 }
 
 .btn:hover {
@@ -183,6 +186,26 @@ permalink: /
 .btn-outline:hover {
   background: var(--accent-color);
   color: white;
+}
+
+/* --- NEW STYLES FOR CV WINDOW --- */
+.pdf-window {
+  width: 100%;
+  height: 800px; /* Adjust height as needed */
+  margin-top: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* Simple details/summary toggle for clean UI */
+details.cv-preview-toggle {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+details.cv-preview-toggle summary {
+  list-style: none; /* Hides default triangle */
 }
 
 /* Responsive design */
@@ -214,6 +237,11 @@ permalink: /
   .about-container {
     padding: 0 1rem;
   }
+
+  /* On mobile, make the window shorter */
+  .pdf-window {
+    height: 500px;
+  }
 }
 </style>
 
@@ -231,7 +259,7 @@ permalink: /
         
         <p>I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
 
-        <p>I'm on the Job Market for 2025-2026</p>
+        <p><strong>I'm on the Job Market for 2025-2026</strong></p>
         
       </div>
     </div>
@@ -243,10 +271,20 @@ permalink: /
   </div>
   
   <div class="download-buttons">
-    <a href="https://docs.google.com/viewer?url=https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf" target="_blank" class="btn">📄 View CV</a>
-    
-    <a href="https://docs.google.com/viewer?url=https://github.com/yujuangao/CV_App-usage/raw/main/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">📑 View Resume</a>
+    <a href="https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf" target="_blank" class="btn">⬇️ Download CV</a>
+    <a href="https://github.com/yujuangao/CV_App-usage/raw/main/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">⬇️ Download Resume</a>
   </div>
+
+  <details class="cv-preview-toggle" open>
+    <summary class="btn btn-outline" style="margin-top: 10px; text-align:center; display:none;">
+      </summary>
+    
+    <iframe 
+      class="pdf-window" 
+      src="https://docs.google.com/gview?url=https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf&embedded=true" 
+      frameborder="0">
+    </iframe>
+  </details>
 
   <div class="section-header">
     <span class="icon">🔗</span>
