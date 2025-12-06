@@ -406,7 +406,7 @@ details p {
   <div class="working-paper">
     <h4>Traffic Sign Classification</h4>
     <p class="authors">with Thiago de Andrade & Rui Guo & Cody Haby</p>
-    <a href="https://github.com/yujuangao/yujuangao.github.io/blob/main/ProjectReport_TRYC.pdf" class="btn">📄 Full Draft</a>
+    <a href="/ProjectReport_TRYC.pdf" target="_blank" class="btn">📄 Full Draft</a>
     <details>
       <summary>📋 Abstract</summary>
       <p>This paper details the development of a Convolutional Neural Network (CNN), a shift invariant artificial neural network (SIANN) utilizing convolution operations instead of matrix multiplication, with the goal of classifying ten unique traffic signs. A well-balanced data set of photos with equivalent resolution was used to train and validate the neural network to determine appropriate hyperparameters for optimal performance, accurate classification greater than ninety percent. The CNN was developed using packages found within the Tensorflow library in Python, including convolution, pooling, and dense layers. Additionally, this paper documents specific experiments conducted during the design and training which led to the final architecture of the neural network. The CNN will be shown to have an accuracy of greater than ninety-four (94) percent during training and validation.</p>
