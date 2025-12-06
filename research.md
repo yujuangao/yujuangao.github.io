@@ -279,7 +279,7 @@ details p {
        <p class="paper-meta">Job Market Paper</p>
       <div class="paper-actions">
         <div class="paper-buttons">
-          <a href="[https://www.dropbox.com/scl/fi/kcghd49gd5rebetofdzkh/Broadband_and_Fertility_in_Nigeria.pdf?rlkey=jhjikvcu2lmw9f0eamrcu2uav&st=dja6xw13&dl=0](https://github.com/yujuangao/Broadband-and-Fertility-in-Nigeria/blob/36be95bdec8773c2f45491310f226193f8379a5a/Broadband%20and%20Fertility.pdf)" class="btn">📄 Full Draft</a>
+          <a href="https://github.com/yujuangao/Broadband-and-Fertility-in-Nigeria/raw/main/Broadband%20and%20Fertility.pdf" target="_blank" class="btn">📄 Full Draft</a>
         </div>
         <div class="paper-tags">
           <span class="tag">AAEA 2025</span>
