@@ -350,8 +350,8 @@ details p {
 
   <div class="working-paper">
     <h4>Friendship Formation and Peer Effect: Using Seat Distribution as an Instrument</h4>
-    <p class="authors">R&R at China Agriculture Economic Review</p>
     <p class="authors">with Yu Bai and Scott Rozelle</p>
+     <p class="authors">R&R at China Agriculture Economic Review</p>
     <a href="https://dx.doi.org/10.2139/ssrn.4828554" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">NEUDC 2023</span>
     <span class="tag">PacDev 2024</span>
