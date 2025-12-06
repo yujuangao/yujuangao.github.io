@@ -276,9 +276,10 @@ details p {
     <div class="paper-content">
       <h3>Bridging the Digital Divide: How 3G Coverage Transforms Fertility Decisions in Nigeria</h3>
       <p class="paper-meta">with Conner Mullally, Xinde Ji, Jared Gars</p>
+       <p class="paper-meta">Job Market Paper</p>
       <div class="paper-actions">
         <div class="paper-buttons">
-          <a href="https://www.dropbox.com/scl/fi/kcghd49gd5rebetofdzkh/Broadband_and_Fertility_in_Nigeria.pdf?rlkey=jhjikvcu2lmw9f0eamrcu2uav&st=dja6xw13&dl=0" class="btn">📄 Full Draft</a>
+          <a href="[https://www.dropbox.com/scl/fi/kcghd49gd5rebetofdzkh/Broadband_and_Fertility_in_Nigeria.pdf?rlkey=jhjikvcu2lmw9f0eamrcu2uav&st=dja6xw13&dl=0](https://github.com/yujuangao/Broadband-and-Fertility-in-Nigeria/blob/36be95bdec8773c2f45491310f226193f8379a5a/Broadband%20and%20Fertility.pdf)" class="btn">📄 Full Draft</a>
         </div>
         <div class="paper-tags">
           <span class="tag">AAEA 2025</span>
@@ -295,7 +296,8 @@ details p {
   <div class="featured-paper">
     <div class="paper-content">
       <h3>Unintended Consequences of Best Intentions: Examining Spillover Effects in Targeted Supplementary Education Interventions</h3>
-      <p class="paper-meta">Job Market Paper</p>
+       <p class="paper-meta">with Yue Ma, Conner Mullally</p>
+      <p class="paper-meta">Under Review at Economics of Education Review</p>
       <div class="paper-actions">
         <div class="paper-buttons">
           <a href="https://www.dropbox.com/scl/fi/z1hparrh8ltcy1te3n7w1/Spillover_Effect.pdf?rlkey=5bcw0rvf4bmk1zjem7mh81mzd&st=1i97r34e&dl=0" class="btn">📄 Full Draft</a>
@@ -348,6 +350,7 @@ details p {
 
   <div class="working-paper">
     <h4>Friendship Formation and Peer Effect: Using Seat Distribution as an Instrument</h4>
+    <p class="authors">R&R at China Agriculture Economic Review</p>
     <p class="authors">with Yu Bai and Scott Rozelle</p>
     <a href="https://dx.doi.org/10.2139/ssrn.4828554" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">NEUDC 2023</span>
@@ -362,6 +365,7 @@ details p {
   <div class="working-paper">
     <h4>Using Text Messages to Improve Parenting Knowledge and Early Childhood Development in Rural China</h4>
     <p class="authors">with Yue Ma and Susanna Loeb</p>
+    <p class="authors">Under Review at Education Finance and Policy</p>
     <a href="https://ssrn.com/abstract=4969618" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">AAEA 2022</span>
     <span class="tag">China Education Finance 2023</span>
@@ -402,7 +406,7 @@ details p {
   <div class="working-paper">
     <h4>Traffic Sign Classification</h4>
     <p class="authors">with Thiago de Andrade & Rui Guo & Cody Haby</p>
-    <a href="https://github.com/yujuangao/yujuangao.github.io/blob/c2c2bb26dfbbe2e463748c6a6232b4ffdd10fba2/ProjectReport_TRYC.pdf" class="btn">📄 Full Draft</a>
+    <a href="https://github.com/yujuangao/yujuangao.github.io/blob/main/ProjectReport_TRYC.pdf" class="btn">📄 Full Draft</a>
     <details>
       <summary>📋 Abstract</summary>
       <p>This paper details the development of a Convolutional Neural Network (CNN), a shift invariant artificial neural network (SIANN) utilizing convolution operations instead of matrix multiplication, with the goal of classifying ten unique traffic signs. A well-balanced data set of photos with equivalent resolution was used to train and validate the neural network to determine appropriate hyperparameters for optimal performance, accurate classification greater than ninety percent. The CNN was developed using packages found within the Tensorflow library in Python, including convolution, pooling, and dense layers. Additionally, this paper documents specific experiments conducted during the design and training which led to the final architecture of the neural network. The CNN will be shown to have an accuracy of greater than ninety-four (94) percent during training and validation.</p>
