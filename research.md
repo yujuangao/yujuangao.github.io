@@ -300,7 +300,7 @@ details p {
       <p class="paper-meta">Under Review at Economics of Education Review</p>
       <div class="paper-actions">
         <div class="paper-buttons">
-           <a href="Examining Spillover Effects in Targeted Supplementary Education Interventions.pdf" target="_blank" class="btn">📄 Full Draft</a>
+          <a href="/Examining%20Spillover%20Effects%20in%20Targeted%20Supplementary%20Education%20Interventions.pdf" target="_blank" class="btn">📄 Full Draft</a>
         </div>
         <div class="paper-tags">
           <span class="tag">ASSA 2025</span>
