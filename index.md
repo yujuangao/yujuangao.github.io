@@ -5,6 +5,7 @@ permalink: /
 ---
 
 <style>
+/* ... (Keep your existing CSS styles exactly as they were) ... */
 :root {
   --primary-color: #2c3e50;
   --accent-color: #3498db;
@@ -185,32 +186,26 @@ permalink: /
   color: white;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .profile-section {
     grid-template-columns: 1fr;
     gap: 1.5rem;
     text-align: center;
   }
-  
   .profile-image {
     width: 180px;
     height: 180px;
     margin: 0 auto;
   }
-  
   .intro-content h1 {
     font-size: 1.8rem;
   }
-  
   .links-grid {
     grid-template-columns: 1fr;
   }
-  
   .download-buttons {
     flex-direction: column;
   }
-  
   .about-container {
     padding: 0 1rem;
   }
