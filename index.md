@@ -238,9 +238,9 @@ permalink: /
   </div>
   
   <div class="download-buttons">
-    <a href="https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf" target="_blank" class="btn">📄 View CV</a>
+    <a href="https://docs.google.com/viewer?url=https://github.com/yujuangao/CV-for-JM-Econ/raw/main/Yujuan_Gao_CV.pdf" target="_blank" class="btn">📄 View CV</a>
     
-    <a href="https://github.com/yujuangao/CV_App-usage/raw/main/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">📑 View Resume</a>
+    <a href="https://docs.google.com/viewer?url=https://github.com/yujuangao/CV_App-usage/raw/main/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">📑 View Resume</a>
   </div>
 
   <div class="section-header">
