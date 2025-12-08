@@ -7,15 +7,12 @@ permalink: /
 <style>
 /* ... (Keep your existing CSS styles exactly as they were) ... */
 :root {
-  --primary-color: #2c3e50; /* Header Color (Dark Grey/Blue) */
-  --accent-color: #3498db;  /* Bright Blue (Links) */
-  --text-color: #2c3e50;    /* Standard Text */
+  --primary-color: #2c3e50; /* Dark Blue Header */
+  --accent-color: #3498db;  /* Bright Blue (Links/Highlights) */
+  --text-color: #2c3e50;    /* Standard Text (Dark) */
   --muted-color: #7f8c8d;
   --border-color: #ecf0f1;
   --hover-color: #f8f9fa;
-  
-  /* NEW COLOR: A clear, professional Navy Blue */
-  --navy-blue: #1a5276; 
 }
 
 .about-container {
@@ -56,31 +53,18 @@ permalink: /
   margin: 0 0 0.5rem;
 }
 
-/* --- CUSTOM CLASS FOR THE NAVY BLUE TEXT --- */
-.navy-text {
-  color: var(--navy-blue) !important; /* Uses #1a5276 (Clear Blue) */
-  font-size: 1.1rem;
-  font-weight: 500;
-  margin-bottom: 1.2rem;
-}
-
-/* Forces the link inside to match the text color */
-.navy-text a {
-  color: var(--navy-blue) !important;
-  text-decoration: underline;
-}
-
-/* Optional: Turns bright blue on hover */
-.navy-text a:hover {
-  color: var(--accent-color) !important;
-}
-
-/* Subtitle specific styling (Ph.D. line) */
-.subtitle {
-  color: var(--navy-blue) !important;
+/* 1. Ph.D. Line Style: Bright Blue */
+.subtitle-blue {
+  color: var(--accent-color); /* Uses #3498db */
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
+}
+
+/* 2. Standard Dark Text (for RA line) */
+.text-dark {
+  color: var(--text-color); /* Uses #2c3e50 */
+  margin-bottom: 1rem;
 }
 
 .bio p {
@@ -241,16 +225,16 @@ permalink: /
     <div class="intro-content">
       <h1>Yujuan Gao</h1>
       
-      <p class="subtitle">Ph.D. Candidate in Applied Economics</p>
+      <p class="subtitle-blue">Ph.D. Candidate in Applied Economics</p>
       
       <div class="bio">
         <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
         
         <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
         
-        <p class="navy-text">I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
+        <p class="text-dark">I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
 
-        <p class="navy-text"><strong>I'm on the Job Market for 2025-2026</strong></p>
+        <p class="text-dark"><strong>I'm on the Job Market for 2025-2026</strong></p>
         
       </div>
     </div>
