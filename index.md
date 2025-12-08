@@ -11,50 +11,47 @@ permalink: /
   --accent-color: #3498db;   /* Bright Blue (Links & Buttons) */
   --bg-subtle: #f8f9fa;      /* Very light grey for backgrounds */
   --border-light: #e9ecef;
-  --spacing-unit: 1.5rem;
 }
 
 /* --- 2. LAYOUT CONTAINER --- */
 .about-container {
-  max-width: 900px;
+  max-width: 800px; /* Slightly narrower for a cleaner read */
   margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   color: var(--primary-color);
   line-height: 1.7;
 }
 
-/* --- 3. HERO SECTION (Photo + Key Info) --- */
+/* --- 3. HERO SECTION (Centered Photo + Key Info) --- */
 .hero-section {
   display: flex;
-  gap: 3rem;
-  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;    /* Center items horizontally */
+  text-align: center;     /* Center text */
+  gap: 2rem;
   margin-bottom: 3rem;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--border-light);
 }
 
-.profile-image-container {
-  flex-shrink: 0;
-}
-
 .profile-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%; /* Circle looks more modern */
+  width: 220px;
+  height: 220px;
+  border-radius: 50%; /* Circle shape */
   object-fit: cover;
-  border: 4px solid white;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  border: 5px solid white;
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1); /* Soft shadow for depth */
 }
 
 .hero-content h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 700;
   margin: 0 0 1rem 0;
   color: var(--primary-color);
   line-height: 1.2;
 }
 
-/* The List of Roles (PhD, RA) */
+/* Cleaned up List for Roles (No bullets for centered look) */
 .role-list {
   list-style: none;
   padding: 0;
@@ -62,25 +59,17 @@ permalink: /
 }
 
 .role-list li {
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
-  color: var(--primary-color); /* Your requested Dark Blue */
+  margin-bottom: 0.8rem;
+  font-size: 1.15rem;
+  color: var(--primary-color);
   font-weight: 500;
-  display: flex;
-  align-items: flex-start;
-}
-
-.role-list li::before {
-  content: "•";
-  color: var(--accent-color);
-  margin-right: 0.8rem;
-  font-weight: bold;
 }
 
 .role-list a {
   color: var(--primary-color);
   text-decoration: underline;
   text-underline-offset: 4px;
+  transition: color 0.2s;
 }
 
 .role-list a:hover {
@@ -90,20 +79,23 @@ permalink: /
 /* The Job Market Badge */
 .job-market-badge {
   display: inline-block;
-  background-color: #e8f4f8; /* Very light blue background */
-  color: var(--primary-color); /* Dark Blue Text */
-  padding: 0.6rem 1.2rem;
+  background-color: #e8f4f8;
+  color: var(--primary-color);
+  padding: 0.7rem 1.4rem;
   border-radius: 50px;
   font-weight: 600;
   font-size: 1rem;
-  border: 1px solid #bee3f8;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 /* --- 4. BIO TEXT --- */
 .bio-section {
   font-size: 1.1rem;
-  margin-bottom: 3rem;
-  max-width: 800px;
+  margin-bottom: 3.5rem;
+  /* Keep bio text left-aligned for easier reading, but center the block */
+  text-align: left; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bio-section p {
@@ -112,11 +104,12 @@ permalink: /
 
 /* --- 5. BUTTONS & SECTIONS --- */
 .section-title {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   display: flex;
   align-items: center;
+  justify-content: center; /* Center section headers */
   color: var(--primary-color);
 }
 
@@ -128,19 +121,20 @@ permalink: /
   display: flex;
   gap: 1rem;
   margin-bottom: 4rem;
+  justify-content: center; /* Center buttons */
   flex-wrap: wrap;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
-  padding: 0.8rem 1.5rem;
+  padding: 0.8rem 1.8rem;
   background: var(--accent-color);
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 50px; /* Rounder buttons fit the simple vibe */
   font-weight: 600;
-  transition: transform 0.2s, background 0.2s;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
   box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
 }
 
@@ -149,6 +143,7 @@ permalink: /
   background: #2980b9;
   color: white;
   text-decoration: none;
+  box-shadow: 0 6px 12px rgba(52, 152, 219, 0.3);
 }
 
 .btn-outline {
@@ -161,26 +156,28 @@ permalink: /
 .btn-outline:hover {
   background: var(--bg-subtle);
   color: #2980b9;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
 
 /* --- 6. CONTACT GRID --- */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  text-align: left; /* Keep contact info left-aligned within cards */
 }
 
 .info-card {
   background: white;
-  padding: 2rem;
-  border-radius: 12px;
+  padding: 1.8rem;
+  border-radius: 16px;
   border: 1px solid var(--border-light);
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
 .info-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.06);
   border-color: var(--accent-color);
 }
 
@@ -189,8 +186,7 @@ permalink: /
   margin-top: 0;
   margin-bottom: 1.2rem;
   color: var(--primary-color);
-  border-bottom: 2px solid var(--bg-subtle);
-  padding-bottom: 0.8rem;
+  font-weight: 700;
 }
 
 .link-row {
@@ -203,8 +199,7 @@ permalink: /
 .link-row span {
   font-size: 1.2rem;
   margin-right: 1rem;
-  width: 24px;
-  text-align: center;
+  color: var(--accent-color); /* Make icons pop */
 }
 
 .link-row a {
@@ -217,31 +212,12 @@ permalink: /
 .link-row a:hover {
   color: var(--accent-color);
 }
-
-/* --- MOBILE RESPONSIVE --- */
-@media (max-width: 768px) {
-  .hero-section {
-    flex-direction: column;
-    text-align: center;
-    gap: 1.5rem;
-  }
-  
-  .role-list li {
-    justify-content: center;
-  }
-  
-  .btn-group {
-    justify-content: center;
-  }
-}
 </style>
 
 <div class="about-container">
 
   <div class="hero-section">
-    <div class="profile-image-container">
-      <img src="yujuangao.jpg" alt="Yujuan Gao" class="profile-image">
-    </div>
+    <img src="yujuangao.jpg" alt="Yujuan Gao" class="profile-image">
     
     <div class="hero-content">
       <h1>Yujuan Gao</h1>
@@ -302,8 +278,8 @@ permalink: /
       <div class="link-row">
         <span>✉️</span> <a href="mailto:yujuan.gao@ufl.edu">yujuan.gao@ufl.edu</a>
       </div>
-      <div style="margin-top: 1rem; font-size: 0.9rem; color: #7f8c8d; line-height: 1.5;">
-        🏢 G125 McCarty Hall B<br>
+      <div style="margin-top: 1rem; font-size: 0.95rem; color: #7f8c8d; line-height: 1.5; padding-left: 2.2rem;">
+        G125 McCarty Hall B<br>
         PO Box 110240<br>
         Gainesville, FL 32611
       </div>
