@@ -249,17 +249,17 @@ details p {
   .featured-paper {
     padding: 1.5rem;
   }
-  
+   
   .paper-content h3 {
     font-size: 1.2rem;
   }
-  
+   
   .paper-actions {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
   }
-  
+   
   .research-container {
     padding: 0 1rem;
   }
@@ -279,7 +279,7 @@ details p {
        <p class="paper-meta">Job Market Paper</p>
       <div class="paper-actions">
         <div class="paper-buttons">
-          <a href="https://docs.google.com/viewer?url=https://github.com/yujuangao/Broadband-and-Fertility-in-Nigeria/raw/main/Broadband%20and%20Fertility.pdf" target="_blank" class="btn">📄 Full Draft</a>
+          <a href="assets/pdf/Broadband%20and%20Fertility.pdf" target="_blank" class="btn">📄 Full Draft</a>
         </div>
         <div class="paper-tags">
           <span class="tag">AAEA 2025</span>
