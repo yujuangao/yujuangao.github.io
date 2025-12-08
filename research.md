@@ -279,7 +279,7 @@ details p {
        <p class="paper-meta">Job Market Paper</p>
       <div class="paper-actions">
         <div class="paper-buttons">
-          <a href="assets/pdf/Broadband%20and%20Fertility.pdf" target="_blank" class="btn">📄 Full Draft</a>
+          <a href="assets/pdf/BroadbandandFertility.pdf" target="_blank" class="btn">📄 Full Draft</a>
         </div>
         <div class="paper-tags">
           <span class="tag">AAEA 2025</span>
