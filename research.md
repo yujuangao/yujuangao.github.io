@@ -283,7 +283,7 @@ details p {
         </div>
         <div class="paper-tags">
           <span class="tag">AAEA 2025</span>
-          <span class="tag">AEA 2026</span>
+          <span class="tag">ASSA 2026</span>
         </div>
       </div>
       <details>
