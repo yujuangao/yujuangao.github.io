@@ -7,9 +7,9 @@ permalink: /
 <style>
 /* ... (Keep your existing CSS styles exactly as they were) ... */
 :root {
-  --primary-color: #2c3e50;
-  --accent-color: #3498db;
-  --text-color: #2c3e50;
+  --primary-color: #2c3e50; /* This is the Dark Blue you see */
+  --accent-color: #3498db;  /* This is the Bright Blue link color */
+  --text-color: #2c3e50;    /* Standard text color */
   --muted-color: #7f8c8d;
   --border-color: #ecf0f1;
   --hover-color: #f8f9fa;
@@ -53,9 +53,9 @@ permalink: /
   margin: 0 0 0.5rem;
 }
 
-/* UPDATED: Changed color from accent-color (Blue) to text-color (Dark Grey) */
+/* UPDATED: Forces the "Ph.D. Candidate" line to match the Dark Blue headers */
 .subtitle {
-  color: var(--text-color); 
+  color: var(--primary-color); 
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
@@ -64,6 +64,8 @@ permalink: /
 .bio p {
   margin-bottom: 1.2rem;
   font-size: 1.05rem;
+  /* Ensures all standard paragraph text uses the Dark Blue/Grey */
+  color: var(--primary-color);
 }
 
 .section-header {
@@ -218,6 +220,7 @@ permalink: /
     <img src="yujuangao.jpg" alt="Yujuan Gao" class="profile-image">
     <div class="intro-content">
       <h1>Yujuan Gao</h1>
+      
       <p class="subtitle">Ph.D. Candidate in Applied Economics</p>
       
       <div class="bio">
@@ -227,7 +230,7 @@ permalink: /
         
         <p>I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
 
-        <p><strong>I'm on the Job Market for 2025-2026</strong></p>
+        <p style="color: var(--primary-color);"><strong>I'm on the Job Market for 2025-2026</strong></p>
         
       </div>
     </div>
