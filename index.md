@@ -53,8 +53,9 @@ permalink: /
   margin: 0 0 0.5rem;
 }
 
+/* UPDATED: Changed color from accent-color (Blue) to text-color (Dark Grey) */
 .subtitle {
-  color: var(--accent-color);
+  color: var(--text-color); 
   font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1.5rem;
