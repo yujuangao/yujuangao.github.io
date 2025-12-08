@@ -7,9 +7,9 @@ permalink: /
 <style>
 /* ... (Keep your existing CSS styles exactly as they were) ... */
 :root {
-  --primary-color: #2c3e50; /* This is the Dark Blue you see */
-  --accent-color: #3498db;  /* This is the Bright Blue link color */
-  --text-color: #2c3e50;    /* Standard text color */
+  --primary-color: #2c3e50; /* Dark Blue */
+  --accent-color: #3498db;  /* Bright Blue (for other links) */
+  --text-color: #2c3e50;    /* Dark Blue Text */
   --muted-color: #7f8c8d;
   --border-color: #ecf0f1;
   --hover-color: #f8f9fa;
@@ -53,19 +53,27 @@ permalink: /
   margin: 0 0 0.5rem;
 }
 
-/* UPDATED: Forces the "Ph.D. Candidate" line to match the Dark Blue headers */
-.subtitle {
-  color: var(--primary-color); 
+/* NEW CLASS: Forces text to be Dark Blue */
+.highlight-dark-blue {
+  color: var(--primary-color) !important; /* Force Dark Blue */
   font-size: 1.1rem;
   font-weight: 500;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Forces links INSIDE this class to also be Dark Blue */
+.highlight-dark-blue a {
+  color: var(--primary-color) !important;
+  text-decoration: underline; /* Keep underline so people know it's a link */
+}
+
+.highlight-dark-blue a:hover {
+  color: var(--accent-color) !important; /* turns bright blue only when hovering */
 }
 
 .bio p {
   margin-bottom: 1.2rem;
   font-size: 1.05rem;
-  /* Ensures all standard paragraph text uses the Dark Blue/Grey */
-  color: var(--primary-color);
 }
 
 .section-header {
@@ -221,16 +229,16 @@ permalink: /
     <div class="intro-content">
       <h1>Yujuan Gao</h1>
       
-      <p class="subtitle">Ph.D. Candidate in Applied Economics</p>
+      <p class="highlight-dark-blue">Ph.D. Candidate in Applied Economics</p>
       
       <div class="bio">
         <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
         
         <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
         
-        <p>I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
+        <p class="highlight-dark-blue">I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
 
-        <p style="color: var(--primary-color);"><strong>I'm on the Job Market for 2025-2026</strong></p>
+        <p class="highlight-dark-blue"><strong>I'm on the Job Market for 2025-2026</strong></p>
         
       </div>
     </div>
