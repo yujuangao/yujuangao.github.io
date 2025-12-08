@@ -5,293 +5,309 @@ permalink: /
 ---
 
 <style>
-/* ... (Keep your existing CSS styles exactly as they were) ... */
+/* --- 1. COLOR PALETTE --- */
 :root {
-  --primary-color: #2c3e50;
-  --accent-color: #3498db; /* This is the Bright Blue Highlight Color */
-  --text-color: #2c3e50;
-  --muted-color: #7f8c8d;
-  --border-color: #ecf0f1;
-  --hover-color: #f8f9fa;
+  --primary-color: #2c3e50;  /* Dark Blue (Text & Headers) */
+  --accent-color: #3498db;   /* Bright Blue (Links & Buttons) */
+  --bg-subtle: #f8f9fa;      /* Very light grey for backgrounds */
+  --border-light: #e9ecef;
+  --spacing-unit: 1.5rem;
 }
 
+/* --- 2. LAYOUT CONTAINER --- */
 .about-container {
   max-width: 900px;
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
-  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--primary-color);
+  line-height: 1.7;
 }
 
-.profile-section {
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  gap: 2.5rem;
-  margin: 2rem 0 3rem;
-  align-items: start;
+/* --- 3. HERO SECTION (Photo + Key Info) --- */
+.hero-section {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.profile-image-container {
+  flex-shrink: 0;
 }
 
 .profile-image {
-  width: 220px;
-  height: 220px;
-  border-radius: 12px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Circle looks more modern */
   object-fit: cover;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
-  border: 1px solid var(--border-color);
-  transition: all 0.3s ease;
+  border: 4px solid white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
-.profile-image:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-}
-
-.intro-content h1 {
-  font-size: 2.2rem;
-  font-weight: 600;
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
   color: var(--primary-color);
-  margin: 0 0 0.5rem;
+  line-height: 1.2;
 }
 
-/* NEW CLASS: This forces the text to be the Bright Blue Accent Color */
-.highlight-text {
-  color: var(--accent-color);
+/* The List of Roles (PhD, RA) */
+.role-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.role-list li {
+  margin-bottom: 0.5rem;
   font-size: 1.1rem;
+  color: var(--primary-color); /* Your requested Dark Blue */
   font-weight: 500;
-  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
 }
 
-/* This ensures the link inside a highlighted line matches the text color */
-.highlight-text a {
+.role-list li::before {
+  content: "•";
   color: var(--accent-color);
-  font-weight: 600;
-}
-
-.bio p {
-  margin-bottom: 1.2rem;
-  font-size: 1.05rem;
-}
-
-.section-header {
-  display: flex;
-  align-items: center;
-  margin: 3rem 0 1.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent-color);
-}
-
-.section-header h2 {
-  font-size: 1.5rem;
-  margin: 0;
-  font-weight: 600;
-  color: var(--primary-color);
-}
-
-.section-header .icon {
-  font-size: 1.3rem;
-  margin-right: 0.5rem;
-  color: var(--accent-color);
-}
-
-.links-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.link-card {
-  background: white;
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
-  border: 1px solid var(--border-color);
-  transition: all 0.3s ease;
-}
-
-.link-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-}
-
-.link-card h3 {
-  margin: 0 0 1rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  display: flex;
-  align-items: center;
-}
-
-.link-card h3 .emoji {
-  margin-right: 0.5rem;
-  font-size: 1.1rem;
-}
-
-.link-item {
-  display: flex;
-  align-items: center;
-  margin: 0.8rem 0;
-  padding: 0.5rem;
-  border-radius: 6px;
-  transition: all 0.2s ease;
-}
-
-.link-item:hover {
-  background: var(--hover-color);
-}
-
-.link-item .emoji {
   margin-right: 0.8rem;
-  font-size: 1rem;
+  font-weight: bold;
 }
 
-.link-item a {
-  color: var(--accent-color);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.link-item a:hover {
-  color: #2980b9;
+.role-list a {
+  color: var(--primary-color);
   text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
-.download-buttons {
+.role-list a:hover {
+  color: var(--accent-color);
+}
+
+/* The Job Market Badge */
+.job-market-badge {
+  display: inline-block;
+  background-color: #e8f4f8; /* Very light blue background */
+  color: var(--primary-color); /* Dark Blue Text */
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid #bee3f8;
+}
+
+/* --- 4. BIO TEXT --- */
+.bio-section {
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
+  max-width: 800px;
+}
+
+.bio-section p {
+  margin-bottom: 1.5rem;
+}
+
+/* --- 5. BUTTONS & SECTIONS --- */
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+}
+
+.section-title span {
+  margin-right: 0.8rem;
+}
+
+.btn-group {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 4rem;
+  flex-wrap: wrap;
 }
 
 .btn {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
   background: var(--accent-color);
   color: white;
   text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: all 0.2s ease;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform 0.2s, background 0.2s;
+  box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
 }
 
 .btn:hover {
+  transform: translateY(-2px);
   background: #2980b9;
-  transform: translateY(-1px);
   color: white;
   text-decoration: none;
 }
 
 .btn-outline {
-  background: transparent;
+  background: white;
   color: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
+  box-shadow: none;
 }
 
 .btn-outline:hover {
-  background: var(--accent-color);
-  color: white;
+  background: var(--bg-subtle);
+  color: #2980b9;
 }
 
+/* --- 6. CONTACT GRID --- */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.info-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  border-color: var(--accent-color);
+}
+
+.info-card h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--bg-subtle);
+  padding-bottom: 0.8rem;
+}
+
+.link-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.link-row span {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  width: 24px;
+  text-align: center;
+}
+
+.link-row a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.link-row a:hover {
+  color: var(--accent-color);
+}
+
+/* --- MOBILE RESPONSIVE --- */
 @media (max-width: 768px) {
-  .profile-section {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    text-align: center;
-  }
-  .profile-image {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-  }
-  .intro-content h1 {
-    font-size: 1.8rem;
-  }
-  .links-grid {
-    grid-template-columns: 1fr;
-  }
-  .download-buttons {
+  .hero-section {
     flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
   }
-  .about-container {
-    padding: 0 1rem;
+  
+  .role-list li {
+    justify-content: center;
+  }
+  
+  .btn-group {
+    justify-content: center;
   }
 }
 </style>
 
 <div class="about-container">
-  <div class="profile-section">
-    <img src="yujuangao.jpg" alt="Yujuan Gao" class="profile-image">
-    <div class="intro-content">
+
+  <div class="hero-section">
+    <div class="profile-image-container">
+      <img src="yujuangao.jpg" alt="Yujuan Gao" class="profile-image">
+    </div>
+    
+    <div class="hero-content">
       <h1>Yujuan Gao</h1>
       
-      <p class="highlight-text">Ph.D. Candidate in Applied Economics</p>
-      
-      <div class="bio">
-        <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
-        
-        <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
-        
-        <p class="highlight-text">I also serve as a Research Assistant at <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">the Freeman Spogli Institute for International Studies, Stanford University</a>.</p>
+      <ul class="role-list">
+        <li>Ph.D. Candidate in Applied Economics, University of Florida</li>
+        <li>
+          Research Assistant at&nbsp;
+          <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1">
+            Freeman Spogli Institute, Stanford University
+          </a>
+        </li>
+      </ul>
 
-        <p class="highlight-text"><strong>I'm on the Job Market for 2025-2026</strong></p>
-        
+      <div class="job-market-badge">
+        🏛️ I'm on the Job Market for 2025-2026
       </div>
     </div>
   </div>
 
-  <div class="section-header">
-    <span class="icon">📄</span>
-    <h2>Documents</h2>
-  </div>
-   
-  <div class="download-buttons">
-    <a href="assets/pdf/Yujuan_Gao_CV.pdf" target="_blank" class="btn">📄 View CV</a>
+  <div class="bio-section">
+    <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on <strong>development economics, health economics, and the economics of education</strong>, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
     
-    <a href="assets/pdf/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">📑 View Resume</a>
+    <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
   </div>
 
-  <div class="section-header">
-    <span class="icon">🔗</span>
-    <h2>Connect & Contact</h2>
+  <h2 class="section-title"><span>📄</span> Documents</h2>
+  <div class="btn-group">
+    <a href="assets/pdf/Yujuan_Gao_CV.pdf" target="_blank" class="btn">View CV</a>
+    <a href="assets/pdf/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">View Resume</a>
   </div>
 
-  <div class="links-grid">
-    <div class="link-card">
-      <h3><span class="emoji">🌐</span>Professional</h3>
-      <div class="link-item">
-        <span class="emoji">💼</span>
-        <a href="https://www.linkedin.com/in/yujuangao/">LinkedIn Profile</a>
+  <h2 class="section-title"><span>🔗</span> Connect</h2>
+  <div class="grid-container">
+    
+    <div class="info-card">
+      <h3>Professional</h3>
+      <div class="link-row">
+        <span>💼</span> <a href="https://www.linkedin.com/in/yujuangao/">LinkedIn</a>
       </div>
-      <div class="link-item">
-        <span class="emoji">📚</span>
-        <a href="https://scholar.google.com/citations?user=YOURREALID">Google Scholar</a>
+      <div class="link-row">
+        <span>📚</span> <a href="https://scholar.google.com/citations?user=YOURREALID">Google Scholar</a>
       </div>
     </div>
 
-    <div class="link-card">
-      <h3><span class="emoji">💻</span>Code & Projects</h3>
-      <div class="link-item">
-        <span class="emoji">⚡</span>
-        <a href="https://github.com/yujuangao?tab=repositories">GitHub Repositories</a>
+    <div class="info-card">
+      <h3>Research</h3>
+      <div class="link-row">
+        <span>⚡</span> <a href="https://github.com/yujuangao?tab=repositories">GitHub Repositories</a>
       </div>
-      <div class="link-item">
-        <span class="emoji">🔬</span>
-        <a href="/research/">Research Portfolio</a>
+      <div class="link-row">
+        <span>🔬</span> <a href="/research/">Research Portfolio</a>
       </div>
     </div>
 
-    <div class="link-card">
-      <h3><span class="emoji">📧</span>Get in Touch</h3>
-      <div class="link-item">
-        <span class="emoji">✉️</span>
-        <a href="mailto:yujuan.gao@ufl.edu">yujuan.gao@ufl.edu</a>
+    <div class="info-card">
+      <h3>Contact</h3>
+      <div class="link-row">
+        <span>✉️</span> <a href="mailto:yujuan.gao@ufl.edu">yujuan.gao@ufl.edu</a>
       </div>
-      <p style="margin-top: 1rem; color: var(--muted-color); font-size: 0.95rem; padding-left: 0.5rem;">
+      <div style="margin-top: 1rem; font-size: 0.9rem; color: #7f8c8d; line-height: 1.5;">
         🏢 G125 McCarty Hall B<br>
         PO Box 110240<br>
-        Gainesville, FL 32611-0240
-      </p>
+        Gainesville, FL 32611
+      </div>
     </div>
+
   </div>
 </div>
