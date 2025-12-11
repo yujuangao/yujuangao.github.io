@@ -247,7 +247,7 @@ permalink: /
     and as an Impact Measurement & Evaluation Specialist at 
     <a class="institution-link" href="https://i4di.org/" target="_blank">
         the Institute for Development Impact, Washington, D.C.
-    </a>.
+    </a>
 </p>
 
 
