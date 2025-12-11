@@ -232,10 +232,10 @@ permalink: /
         
         <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
         
-       <style>
+      <style>
     .institution-link {
-        color: #1a1a1a;          /* same dark color as text */
-        text-decoration: underline;
+        color: #1a1a1a;     /* same dark color as main text */
+        text-decoration: none;  /* remove underline */
     }
 </style>
 
@@ -249,6 +249,7 @@ permalink: /
         the Institute for Development Impact, Washington, D.C.
     </a>.
 </p>
+
 
 
         <p class="text-dark"><strong>I'm on the Job Market for 2025-2026</strong></p>
