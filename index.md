@@ -232,16 +232,24 @@ permalink: /
         
         <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
         
-        <p class="text-dark">
+       <style>
+    .institution-link {
+        color: #1a1a1a;          /* same dark color as text */
+        text-decoration: underline;
+    }
+</style>
+
+<p class="text-dark">
     I also serve as a Research Assistant at 
-    <a href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1" target="_blank">
+    <a class="institution-link" href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1" target="_blank">
         the Freeman Spogli Institute for International Studies, Stanford University
     </a>
     and as an Impact Measurement & Evaluation Specialist at 
-    <a href="https://i4di.org/" target="_blank">
+    <a class="institution-link" href="https://i4di.org/" target="_blank">
         the Institute for Development Impact, Washington, D.C.
     </a>.
 </p>
+
 
         <p class="text-dark"><strong>I'm on the Job Market for 2025-2026</strong></p>
         
