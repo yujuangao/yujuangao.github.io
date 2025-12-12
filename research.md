@@ -300,7 +300,7 @@ details p {
       <p class="paper-meta">Under Review at Economics of Education Review</p>
       <div class="paper-actions">
         <div class="paper-buttons">
-          <a href="/Spillover_Effects_Paper.pdf" target="_blank" class="btn">📄 Full Draft</a>
+          <a href="/assets/pdf/Spillover_Effects_Paper.pdf" target="_blank" class="btn">📄 Full Draft</a>
         </div>
         <div class="paper-tags">
           <span class="tag">ASSA 2025</span>
