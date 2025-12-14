@@ -381,7 +381,6 @@ details p {
 
   <div class="working-paper">
     <h4>Maternal Migration and Early Child Development in Rural China</h4>
-    <p class="authors">with Yue Ma & Conner Mullally</p>
     <span class="tag">SAEA 2023</span>
     <span class="tag">AAEA 2022</span>
     <span class="tag">WEAI 2022</span>
