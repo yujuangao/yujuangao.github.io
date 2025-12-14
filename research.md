@@ -349,7 +349,7 @@ details p {
 
   <div class="working-paper">
     <h4>Friendship Formation and Peer Effect: Using Seat Distribution as an Instrument</h4>
-    <p class="authors">with Yu Bai and Scott Rozelle</p>
+    <p class="authors">with Yu Bai, Yue Ma, Andrew Rule and Scott Rozelle</p>
      <p class="authors">R&R at China Agriculture Economic Review</p>
     <a href="https://dx.doi.org/10.2139/ssrn.4828554" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">NEUDC 2023</span>
@@ -363,7 +363,7 @@ details p {
 
   <div class="working-paper">
     <h4>Using Text Messages to Improve Parenting Knowledge and Early Childhood Development in Rural China</h4>
-    <p class="authors">with Yue Ma and Susanna Loeb</p>
+    <p class="authors">with Yue Ma, Xiaoyang Ye, Susanna Loeb, Alexis Medina and Scott Rozelle </p>
     <p class="authors">Under Review at Education Finance and Policy</p>
     <a href="https://ssrn.com/abstract=4969618" class="btn btn-outline">📄 SSRN Draft</a>
     <span class="tag">AAEA 2022</span>
