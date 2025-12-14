@@ -295,7 +295,7 @@ details p {
   <div class="featured-paper">
     <div class="paper-content">
       <h3>Unintended Consequences of Best Intentions: Examining Spillover Effects in Targeted Supplementary Education Interventions</h3>
-       <p class="paper-meta">with Yue Ma, Conner Mullally</p>
+       <p class="paper-meta">with Yue Ma, Conner Mullally and Scott Rozelle</p>
       <p class="paper-meta">Under Review at Economics of Education Review</p>
       <div class="paper-actions">
         <div class="paper-buttons">
