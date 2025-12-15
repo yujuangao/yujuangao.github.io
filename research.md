@@ -275,6 +275,7 @@ details p {
   <div class="featured-paper">
     <div class="paper-content">
       <h3>Bridging the Digital Divide: How 3G Coverage Transforms Fertility Decisions in Nigeria</h3>
+       <p class="paper-meta">with Conner Mullally, Xinde James Ji and Jared Gars</p>
        <p class="paper-meta">Job Market Paper</p>
       <div class="paper-actions">
         <div class="paper-buttons">
