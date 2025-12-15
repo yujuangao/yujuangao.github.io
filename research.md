@@ -320,26 +320,38 @@ details p {
     <h2>Publications</h2>
   </div>
 
-  <div class="publication-list">
-    <div class="publication-item">
-      Chen, Xuqi, Lisa House, Zhifeng Gao, <strong>Yujuan Gao</strong> (2024). "Do Color-Coded Nutrition Facts Panels Nudge the Use of Nutrition Information on Food Packaging?" <em>Food Policy</em>. <a href="https://doi.org/10.1016/j.foodpol.2024.102730">📖 Read Online</a>
-    </div>
+<div class="publication-list">
+
+  <div class="publication-item">
+    “Do Color-Coded Nutrition Facts Panels Nudge the Use of Nutrition Information on Food Packaging?”  
+    (with Xuqi Chen, Lisa House, and Zhifeng Gao).  
+    <em>Food Policy</em>, 2024.  
+    <a href="https://doi.org/10.1016/j.foodpol.2024.102730">[click here]</a>
+  </div>
+
+  <div class="publication-item">
+    “Associations between Urbanization and the Home Language Environment: Evidence from a LENA Study in Rural and Peri-urban China”  
+    (with Yue Ma, Scott Rozelle, <em>et al.</em>).  
+    <em>Child Development</em>, 2023.  
+    <a href="https://doi.org/10.1111/cdev.14034">[click here]</a>
+  </div>
+
+  <div class="publication-item">
+    “Maternal Health Behaviors during Pregnancy in Rural Northwestern China”  
+    (with Yue Ma, Sarah-Eve Dill, <em>et al.</em>).  
+    <em>BMC Pregnancy and Childbirth</em>, 2020.  
+    <a href="https://doi.org/10.1186/s12884-020-03444-3">[click here]</a>
+  </div>
+
+  <div class="publication-item">
+    “Arrival Order for Positive and Negative Effects of Parental Migration on the Academic Performance of Left-behind Children in Rural China”  
+    (with Yu Bai).  
+    <em>Studies in Labor Economics</em> (in Chinese), 2018.
+  </div>
+
+</div>
+
     
-    <div class="publication-item">
-      Ma, Yue, Xinwu Zhang, Lucy Pappas, Andrew Rule, <strong>Yujuan Gao</strong>, Sarah-Eve Dill, Tianli Feng, et al. (2023). "Associations between Urbanization and the Home Language Environment: Evidence from a LENA Study in Rural and Peri-urban China." <em>Child Development</em>. <a href="https://doi.org/10.1111/cdev.14034">📖 Read Online</a>
-    </div>
-    
-    <div class="publication-item">
-      <strong>Yujuan Gao</strong>, Derek Hu, Even Peng, et al. (2020). "Depressive Symptoms and the Link with Academic Performance among Rural Taiwanese Children." <em>International Journal of Environmental Research and Public Health</em>. <a href="https://doi.org/10.3390/ijerph17082778">📖 Read Online</a>
-    </div>
-    
-    <div class="publication-item">
-      Ma, Yue, <strong>Yujuan Gao</strong>, Jason Li, et al. (2020). "Maternal Health Behaviors during Pregnancy in Rural Northwestern China." <em>BMC Pregnancy and Childbirth</em>. <a href="https://doi.org/10.1186/s12884-020-03444-3">📖 Read Online</a>
-    </div>
-    
-    <div class="publication-item">
-      Ma, Yue, <strong>Yujuan Gao</strong>, Wang, Yue, et al. (2018). "Impact of a Local Vision Care Center on Glasses Ownership and Wearing Behavior in Northwestern Rural China: A Cluster-Randomized Controlled Trial." <em>International Journal of Environmental Research and Public Health</em>. <a href="https://doi.org/10.3390/ijerph15122783">📖 Read Online</a>
-    </div>
   </div>
 
   <div class="section-header">
