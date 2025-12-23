@@ -347,6 +347,7 @@ details p {
     “Arrival Order for Positive and Negative Effects of Parental Migration on the Academic Performance of Left-behind Children in Rural China”  
     (with Yu Bai).  
     <em>Studies in Labor Economics</em> (in Chinese), 2018.
+    <a href="/assets/pdf/正负效应的先来后到：父母外出对留守儿童学业表现的影响研究.pdf">[click here]</a>
   </div>
 
 </div>
