@@ -350,8 +350,6 @@ details p {
     <a href="/assets/pdf/正负效应的先来后到：父母外出对留守儿童学业表现的影响研究.pdf">[click here]</a>
   </div>
 
-</div>
-
     
   </div>
 
