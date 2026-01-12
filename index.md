@@ -252,7 +252,7 @@ permalink: /
 
 
 
-        <p class="text-dark"><strong>I'm on the Job Market for 2025-2026</strong></p>
+        
         
       </div>
     </div>
