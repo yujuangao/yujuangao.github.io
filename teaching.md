@@ -88,7 +88,6 @@ permalink: /teaching/
   font-weight: 500;
 }
 
-/* Timeline styles for teaching experience */
 .course-list {
   position: relative;
   margin: 0;
@@ -145,37 +144,6 @@ permalink: /teaching/
   line-height: 1.4;
 }
 
-.guest-lecture-section {
-  margin-top: 2.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--border-color);
-}
-
-.guest-lecture-title {
-  font-size: 1.25rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  margin: 0 0 1.5rem 0;
-}
-
-.lecture-item {
-  position: relative;
-  margin: 0 0 1rem 2rem;
-  padding: 0;
-}
-
-.lecture-item::before {
-  content: '';
-  position: absolute;
-  left: -2rem;
-  top: 0.5rem;
-  width: 3px;
-  height: 3px;
-  background: var(--accent-color);
-  border-radius: 50%;
-  transform: translateX(-50%);
-}
-
 .lecture-link {
   color: var(--accent-color);
   text-decoration: none;
@@ -216,39 +184,25 @@ permalink: /teaching/
   font-style: italic;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .teaching-container {
     padding: 0 1rem;
   }
-  
   .evaluation-table {
     font-size: 0.9rem;
-  }
-  
-  .evaluation-table th,
-  .evaluation-table td {
-    padding: 0.6rem 0.4rem;
   }
 }
 </style>
 
 <div class="teaching-container">
-  <div class="section-header">
-    <span class="icon">🎯</span>
-    <h2>Teaching Statement</h2>
-  </div>
+
   <div class="evaluation-section">
     <p><strong>Teaching Interests:</strong> Microeconomics, Econometrics, Applied Statistics, Economics of Education, Development Economics, Health Economics</p>
-    
-    <p>My teaching philosophy centers on making complex economic concepts accessible through clear explanations, real-world applications, and interactive learning approaches. I believe in connecting theoretical frameworks to practical policy applications and helping students understand how economic principles apply to contemporary challenges.</p>
-    
-    <p>As an educator, I strive to create an engaging classroom environment that encourages critical thinking and active participation. My experience as a teaching assistant across multiple economics courses has reinforced my commitment to supporting student learning through personalized guidance and responsive instruction.</p>
   </div>
 
   <div class="section-header">
     <span class="icon">🎓</span>
-    <h2>Teaching Experience</h2>
+    <h2>Teaching Assistant Experience</h2>
   </div>
   
   <div class="evaluation-section">
@@ -303,21 +257,25 @@ permalink: /teaching/
         <div class="course-details">2021</div>
       </li>
     </ul>
+  </div>
 
-    <div class="guest-lecture-section">
-      <h3 class="guest-lecture-title">Guest Lecture</h3>
-      <ul class="course-list">
-        <li class="lecture-item">
-          <div class="course-title">
-            IDS 2935-22961 - How Do We End Poverty?
-            <span class="course-level">• Undergraduate</span>
-          </div>
-          <div class="course-details">
-            2023 • <a href="https://github.com/yujuangao/yujuangao.github.io/raw/main/Slides.pdf" class="lecture-link" target="_blank">View Slides</a>
-          </div>
-        </li>
-      </ul>
-    </div>
+  <div class="section-header">
+    <span class="icon">🎤</span>
+    <h2>Guest Lectures</h2>
+  </div>
+
+  <div class="evaluation-section">
+    <ul class="course-list">
+      <li class="course-item">
+        <div class="course-title">
+          IDS 2935-22961 - How Do We End Poverty?
+          <span class="course-level">• Undergraduate</span>
+        </div>
+        <div class="course-details">
+          2023 • <a href="https://github.com/yujuangao/yujuangao.github.io/raw/main/Slides.pdf" class="lecture-link" target="_blank">View Slides</a>
+        </div>
+      </li>
+    </ul>
   </div>
 
   <div class="section-header">
