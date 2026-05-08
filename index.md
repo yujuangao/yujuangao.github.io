@@ -291,7 +291,7 @@ permalink: /
       <h3><span class="emoji">📧</span>Get in Touch</h3>
       <div class="link-item">
         <span class="emoji">✉️</span>
-        <a href="mailto:yujuan.gao@ufl.edu">yujuan.gao@ufl.edu</a>
+        <a href="mailto:yujuan@vt.edu">yujuangao@vt.edu</a>
       </div>
       <p style="margin-top: 1rem; color: var(--muted-color); font-size: 0.95rem; padding-left: 0.5rem;">
         🏢 G125 McCarty Hall B<br>
