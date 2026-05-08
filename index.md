@@ -239,14 +239,6 @@ permalink: /
     }
 </style>
 
-<p class="text-dark">
-    I also serve as a Research Assistant at 
-    <a class="institution-link" href="https://profiles.stanford.edu/yujuan-gao?releaseVersion=11.5.1" target="_blank">
-        the Freeman Spogli Institute for International Studies, Stanford University.
-    </a>
-</p>
-
-
 
         
         
