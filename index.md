@@ -228,7 +228,7 @@ permalink: /
       <p class="subtitle-blue">Ph.D. Candidate in Applied Economics</p>
       
       <div class="bio">
-        <p>I am a Ph.D. candidate in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
+        <p>I am a on coming postdoctoral assosciate in Kolh Centre at Virginia tech, I obtain my Ph.D. in the Food and Resource Economics Department at the University of Florida. My research focuses on development economics, health economics, and the economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.</p>
         
         <p>My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.</p>
         
