@@ -7,7 +7,8 @@ permalink: /
 <style>
 :root {
   --primary-color: #2c3e50;
-  --accent-color: #3498db;
+  --accent-color: #861F41;
+  --secondary-color: #E87722;
   --text-color: #2c3e50;
   --muted-color: #7f8c8d;
   --border-color: #ecf0f1;
@@ -71,7 +72,7 @@ permalink: /
 }
 
 .institution-link:hover {
-  color: #2980b9;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 
@@ -80,7 +81,7 @@ permalink: /
   align-items: center;
   margin: 3rem 0 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .section-header h2 {
@@ -156,7 +157,7 @@ permalink: /
 }
 
 .link-item a:hover {
-  color: #2980b9;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 
@@ -178,7 +179,7 @@ permalink: /
 }
 
 .btn:hover {
-  background: #2980b9;
+  background: var(--secondary-color);
   transform: translateY(-1px);
   color: white;
   text-decoration: none;
@@ -193,6 +194,16 @@ permalink: /
 .btn-outline:hover {
   background: var(--accent-color);
   color: white;
+}
+
+.address-box {
+  margin-top: 1rem;
+  color: var(--muted-color);
+  font-size: 0.95rem;
+  padding: 0.8rem;
+  background: #f8f9fa;
+  border-left: 4px solid var(--accent-color);
+  border-radius: 8px;
 }
 
 @media (max-width: 768px) {
@@ -234,28 +245,27 @@ permalink: /
       <h1>Yujuan Gao</h1>
 
       <p class="subtitle-blue">
-        Postdoctoral Researcher, 
+        Postdoctoral Research Associate,
         <a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
           Kohl Centre
-        </a>, 
+        </a>,
         Virginia Tech
       </p>
 
       <div class="bio">
         <p>
-          I am a Postdoctoral Researcher at the 
+          I am a Postdoctoral Research Associate at the
           <a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
             Kohl Centre
           </a>
-          at Virginia Tech. I received my Ph.D. in the Food and Resource Economics Department 
-          at the University of Florida. My research focuses on development economics, health economics, 
-          and the economics of education, with an emphasis on causal inference, impact evaluation, 
-          and applied econometrics.
+          at Virginia Tech. I received my Ph.D. in Food and Resource Economics from the University of Florida.
+          My research focuses on development economics, health economics, and the economics of education,
+          with an emphasis on causal inference, impact evaluation, and applied econometrics.
         </p>
 
         <p>
-          My work leverages field experiments, administrative data, and social network analysis 
-          to examine how digital technology, information interventions, and education policies 
+          My work leverages field experiments, administrative data, and social network analysis
+          to examine how digital technology, information interventions, and education policies
           influence development outcomes across the life cycle.
         </p>
       </div>
@@ -319,10 +329,22 @@ permalink: /
         <a href="mailto:gyj12365@gmail.com">gyj12365@gmail.com</a>
       </div>
 
-      <p style="margin-top: 1rem; color: var(--muted-color); font-size: 0.95rem; padding-left: 0.5rem;">
-        🏢 Kohl Centre<br>
-        Virginia Tech
-      </p>
+      <div class="link-item">
+        <span class="emoji">🌐</span>
+        <a href="https://yujuangao.github.io/index" target="_blank">Personal Website</a>
+      </div>
+
+      <div class="address-box">
+        <strong>
+          <a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
+            Kohl Centre
+          </a>
+        </strong><br>
+        Virginia Tech | Department of Agricultural and Applied Economics<br><br>
+        319A Hutcheson Hall<br>
+        250 Drillfield Drive<br>
+        Blacksburg, VA 24061
+      </div>
     </div>
   </div>
 </div>
