@@ -7,8 +7,7 @@ permalink: /
 <style>
 :root {
   --primary-color: #2c3e50;
-  --accent-color: #861F41;
-  --secondary-color: #E87722;
+  --accent-color: #3498db;
   --text-color: #2c3e50;
   --muted-color: #7f8c8d;
   --border-color: #ecf0f1;
@@ -72,7 +71,7 @@ permalink: /
 }
 
 .institution-link:hover {
-  color: var(--secondary-color);
+  color: #2980b9;
   text-decoration: underline;
 }
 
@@ -81,7 +80,7 @@ permalink: /
   align-items: center;
   margin: 3rem 0 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .section-header h2 {
@@ -99,7 +98,7 @@ permalink: /
 
 .links-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
@@ -119,232 +118,226 @@ permalink: /
 }
 
 .link-card h3 {
-  margin: 0 0 1rem;
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--primary-color);
-  display: flex;
-  align-items: center;
+  margin:0 0 1rem;
+  font-size:1.2rem;
+  font-weight:600;
+  color:var(--primary-color);
+  display:flex;
+  align-items:center;
 }
 
 .link-card h3 .emoji {
-  margin-right: 0.5rem;
-  font-size: 1.1rem;
+  margin-right:.5rem;
 }
 
 .link-item {
-  display: flex;
-  align-items: center;
-  margin: 0.8rem 0;
-  padding: 0.5rem;
-  border-radius: 6px;
-  transition: all 0.2s ease;
+  display:flex;
+  align-items:center;
+  margin:.8rem 0;
+  padding:.5rem;
+  border-radius:6px;
+  transition:.2s;
 }
 
-.link-item:hover {
-  background: var(--hover-color);
+.link-item:hover{
+  background:var(--hover-color);
 }
 
-.link-item .emoji {
-  margin-right: 0.8rem;
-  font-size: 1rem;
+.link-item .emoji{
+  margin-right:.8rem;
 }
 
-.link-item a {
-  color: var(--accent-color);
-  text-decoration: none;
-  font-weight: 500;
+.link-item a{
+  color:var(--accent-color);
+  text-decoration:none;
+  font-weight:500;
 }
 
-.link-item a:hover {
-  color: var(--secondary-color);
-  text-decoration: underline;
+.link-item a:hover{
+  color:#2980b9;
+  text-decoration:underline;
 }
 
-.download-buttons {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+.download-buttons{
+  display:flex;
+  gap:1rem;
+  margin-top:1rem;
 }
 
-.btn {
-  display: inline-block;
-  padding: 0.6rem 1.2rem;
-  background: var(--accent-color);
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: all 0.2s ease;
+.btn{
+  display:inline-block;
+  padding:.6rem 1.2rem;
+  background:var(--accent-color);
+  color:white;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:500;
 }
 
-.btn:hover {
-  background: var(--secondary-color);
-  transform: translateY(-1px);
-  color: white;
-  text-decoration: none;
+.btn:hover{
+  background:#2980b9;
 }
 
-.btn-outline {
-  background: transparent;
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
+.btn-outline{
+  background:transparent;
+  color:var(--accent-color);
+  border:1px solid var(--accent-color);
 }
 
-.btn-outline:hover {
-  background: var(--accent-color);
-  color: white;
+.btn-outline:hover{
+  background:var(--accent-color);
+  color:white;
 }
 
-.address-box {
-  margin-top: 1rem;
-  color: var(--muted-color);
-  font-size: 0.95rem;
-  padding: 0.8rem;
-  background: #f8f9fa;
-  border-left: 4px solid var(--accent-color);
-  border-radius: 8px;
+@media (max-width:768px){
+
+.profile-section{
+grid-template-columns:1fr;
+text-align:center;
 }
 
-@media (max-width: 768px) {
-  .profile-section {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    text-align: center;
-  }
+.profile-image{
+width:180px;
+height:180px;
+margin:0 auto;
+}
 
-  .profile-image {
-    width: 180px;
-    height: 180px;
-    margin: 0 auto;
-  }
+.links-grid{
+grid-template-columns:1fr;
+}
 
-  .intro-content h1 {
-    font-size: 1.8rem;
-  }
+.download-buttons{
+flex-direction:column;
+}
 
-  .links-grid {
-    grid-template-columns: 1fr;
-  }
+.about-container{
+padding:0 1rem;
+}
 
-  .download-buttons {
-    flex-direction: column;
-  }
-
-  .about-container {
-    padding: 0 1rem;
-  }
 }
 </style>
 
+
 <div class="about-container">
-  <div class="profile-section">
-    <img src="yujuangao.jpg" alt="Yujuan Gao" class="profile-image">
 
-    <div class="intro-content">
-      <h1>Yujuan Gao</h1>
+<div class="profile-section">
 
-      <p class="subtitle-blue">
-        Postdoctoral Research Associate,
-        <a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
-          Kohl Centre
-        </a>,
-        Virginia Tech
-      </p>
+<img src="yujuangao.jpg" alt="Yujuan Gao" class="profile-image">
 
-      <div class="bio">
-        <p>
-          I am a Postdoctoral Research Associate at the
-          <a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
-            Kohl Centre
-          </a>
-          at Virginia Tech. I received my Ph.D. in Food and Resource Economics from the University of Florida.
-          My research focuses on development economics, health economics, and the economics of education,
-          with an emphasis on causal inference, impact evaluation, and applied econometrics.
-        </p>
+<div class="intro-content">
 
-        <p>
-          My work leverages field experiments, administrative data, and social network analysis
-          to examine how digital technology, information interventions, and education policies
-          influence development outcomes across the life cycle.
-        </p>
-      </div>
-    </div>
-  </div>
+<h1>Yujuan Gao</h1>
 
-  <div class="section-header">
-    <span class="icon">📄</span>
-    <h2>Documents</h2>
-  </div>
+<p class="subtitle-blue">
+Postdoctoral Research Associate,
+<a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
+Kohl Centre
+</a>,
+Virginia Tech
+</p>
 
-  <div class="download-buttons">
-    <a href="assets/pdf/Yujuan_Gao_CV.pdf" target="_blank" class="btn">📄 View CV</a>
-    <a href="assets/pdf/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">📑 View Resume</a>
-  </div>
+<div class="bio">
 
-  <div class="section-header">
-    <span class="icon">🔗</span>
-    <h2>Connect & Contact</h2>
-  </div>
+<p>
+I am a Postdoctoral Research Associate at the
+<a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
+Kohl Centre
+</a>
+at Virginia Tech. I received my Ph.D. in Food and Resource Economics at the University of Florida.
+</p>
 
-  <div class="links-grid">
-    <div class="link-card">
-      <h3><span class="emoji">🌐</span>Professional</h3>
+<p>
+My research focuses on development economics, health economics, and economics of education, with an emphasis on causal inference, impact evaluation, and applied econometrics.
+</p>
 
-      <div class="link-item">
-        <span class="emoji">💼</span>
-        <a href="https://www.linkedin.com/in/yujuangao/" target="_blank">LinkedIn Profile</a>
-      </div>
+<p>
+My work leverages field experiments, administrative data, and social network analysis to examine how digital technology, information interventions, and education policies influence development outcomes across the life cycle.
+</p>
 
-      <div class="link-item">
-        <span class="emoji">📚</span>
-        <a href="https://scholar.google.com/citations?user=YOURREALID" target="_blank">Google Scholar</a>
-      </div>
-    </div>
+</div>
+</div>
+</div>
 
-    <div class="link-card">
-      <h3><span class="emoji">💻</span>Code & Projects</h3>
+<div class="section-header">
+<span class="icon">📄</span>
+<h2>Documents</h2>
+</div>
 
-      <div class="link-item">
-        <span class="emoji">⚡</span>
-        <a href="https://github.com/yujuangao?tab=repositories" target="_blank">GitHub Repositories</a>
-      </div>
+<div class="download-buttons">
+<a href="assets/pdf/Yujuan_Gao_CV.pdf" target="_blank" class="btn">📄 View CV</a>
+<a href="assets/pdf/Yujuan_Gao_Resume.pdf" target="_blank" class="btn btn-outline">📑 View Resume</a>
+</div>
 
-      <div class="link-item">
-        <span class="emoji">🔬</span>
-        <a href="/research/">Research Portfolio</a>
-      </div>
-    </div>
+<div class="section-header">
+<span class="icon">🔗</span>
+<h2>Connect & Contact</h2>
+</div>
 
-    <div class="link-card">
-      <h3><span class="emoji">📧</span>Get in Touch</h3>
+<div class="links-grid">
 
-      <div class="link-item">
-        <span class="emoji">✉️</span>
-        <a href="mailto:yujuangao@vt.edu">yujuangao@vt.edu</a>
-      </div>
+<div class="link-card">
 
-      <div class="link-item">
-        <span class="emoji">📩</span>
-        <a href="mailto:gyj12365@gmail.com">gyj12365@gmail.com</a>
-      </div>
+<h3><span class="emoji">🌐</span>Professional</h3>
 
-      <div class="link-item">
-        <span class="emoji">🌐</span>
-        <a href="https://yujuangao.github.io/index" target="_blank">Personal Website</a>
-      </div>
+<div class="link-item">
+<span class="emoji">💼</span>
+<a href="https://www.linkedin.com/in/yujuangao/" target="_blank">
+LinkedIn Profile
+</a>
+</div>
 
-      <div class="address-box">
-        <strong>
-          <a href="https://kohl.aaec.vt.edu/" target="_blank" class="institution-link">
-            Kohl Centre
-          </a>
-        </strong><br>
-        Virginia Tech | Department of Agricultural and Applied Economics<br><br>
-        319A Hutcheson Hall<br>
-        250 Drillfield Drive<br>
-        Blacksburg, VA 24061
-      </div>
-    </div>
-  </div>
+<div class="link-item">
+<span class="emoji">📚</span>
+<a href="https://scholar.google.com/" target="_blank">
+Google Scholar
+</a>
+</div>
+
+</div>
+
+
+<div class="link-card">
+
+<h3><span class="emoji">💻</span>Code & Projects</h3>
+
+<div class="link-item">
+<span class="emoji">⚡</span>
+<a href="https://github.com/yujuangao" target="_blank">
+GitHub Repositories
+</a>
+</div>
+
+<div class="link-item">
+<span class="emoji">🔬</span>
+<a href="/research/">Research Portfolio</a>
+</div>
+
+</div>
+
+
+<div class="link-card">
+
+<h3><span class="emoji">📧</span>Get in Touch</h3>
+
+<div class="link-item">
+<span class="emoji">✉️</span>
+<a href="mailto:yujuangao@vt.edu">yujuangao@vt.edu</a>
+</div>
+
+<div class="link-item">
+<span class="emoji">🌐</span>
+<a href="https://yujuangao.github.io/index">Personal Website</a>
+</div>
+
+<p style="margin-top:1rem;color:var(--muted-color);font-size:0.95rem;padding-left:0.5rem;">
+🏢 Kohl Centre<br>
+Virginia Tech | Department of Agricultural and Applied Economics<br><br>
+319A Hutcheson Hall<br>
+250 Drillfield Drive<br>
+Blacksburg, VA 24061
+</p>
+
+</div>
+
+</div>
 </div>
