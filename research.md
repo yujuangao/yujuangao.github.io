@@ -43,7 +43,6 @@ permalink: /research/
   color: var(--accent-color);
 }
 
-/* Featured papers with enhanced design */
 .featured-paper {
   padding: 2rem;
   margin-bottom: 2rem;
@@ -95,12 +94,6 @@ permalink: /research/
   align-items: center;
 }
 
-.paper-buttons {
-  display: flex;
-  gap: 0.5rem;
-  align-items: center;
-}
-
 .paper-tags {
   display: flex;
   flex-wrap: wrap;
@@ -139,7 +132,6 @@ permalink: /research/
   color: white;
 }
 
-/* Abstract toggle */
 details {
   margin-top: 1rem;
 }
@@ -165,7 +157,6 @@ details p {
   border-left: 4px solid var(--accent-color);
 }
 
-/* Publications list */
 .publication-list {
   background: white;
   padding: 2rem;
@@ -210,7 +201,6 @@ details p {
   text-decoration: underline;
 }
 
-/* Working papers section */
 .working-paper {
   padding: 1.5rem;
   margin-bottom: 1rem;
@@ -244,7 +234,6 @@ details p {
   margin-top: 0.5rem;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
   .featured-paper {
     padding: 1.5rem;
@@ -267,6 +256,7 @@ details p {
 </style>
 
 <div class="research-container">
+
   <div class="section-header">
     <span class="icon">⭐</span>
     <h2>Featured Research</h2>
@@ -275,12 +265,9 @@ details p {
   <div class="featured-paper">
     <div class="paper-content">
       <h3>Bridging the Digital Divide: How 3G Coverage Transforms Fertility Decisions in Nigeria</h3>
-       <p class="paper-meta">with Conner Mullally, Xinde James Ji and Jared Gars</p>
-       <p class="paper-meta">Job Market Paper</p>
+      <p class="paper-meta">with Conner Mullally, Xinde James Ji and Jared Gars</p>
+      <p class="paper-meta">Dissertation Research</p>
       <div class="paper-actions">
-        <div class="paper-buttons">
-          <a href="/assets/pdf/BroadbandandFertility.pdf" target="_blank" class="btn">📄 Full Draft</a>
-        </div>
         <div class="paper-tags">
           <span class="tag">AAEA 2025</span>
           <span class="tag">ASSA 2026</span>
@@ -288,7 +275,7 @@ details p {
       </div>
       <details>
         <summary>📋 Abstract</summary>
-        <p>Using Nigerian DHS data (2013–2018) linked to 3G rollout across 725 local government areas, we find that a one standard deviation increase in coverage reduces birth probability among women aged 12–20 by 1.4–18 percentage points. Effects operate through delayed cohabitation and childbearing rather than contraceptive uptake, alongside increased skilled employment and stronger household bargaining power.</p>
+        <p>Using Nigerian DHS data (2013–2018) linked to 3G rollout across 725 local government areas, we find that a one standard deviation increase in coverage reduces birth probability among women aged 12–20 by 1.4–1.8 percentage points. Effects operate through delayed cohabitation and childbearing rather than contraceptive uptake, alongside increased skilled employment and stronger household bargaining power.</p>
       </details>
     </div>
   </div>
@@ -296,12 +283,9 @@ details p {
   <div class="featured-paper">
     <div class="paper-content">
       <h3>Unintended Consequences of Best Intentions: Examining Spillover Effects in Targeted Supplementary Education Interventions</h3>
-       <p class="paper-meta">with Yue Ma, Conner Mullally and Scott Rozelle</p>
-      <p class="paper-meta">Under Review at Economics of Education Review</p>
+      <p class="paper-meta">with Yue Ma, Conner Mullally and Scott Rozelle</p>
+      <p class="paper-meta">Under Review</p>
       <div class="paper-actions">
-        <div class="paper-buttons">
-          <a href="/assets/pdf/Spillover_Effects_Paper.pdf" target="_blank" class="btn">📄 Full Draft</a>
-        </div>
         <div class="paper-tags">
           <span class="tag">ASSA 2025</span>
           <span class="tag">AAEA 2025</span>
@@ -320,37 +304,43 @@ details p {
     <h2>Publications</h2>
   </div>
 
-<div class="publication-list">
+  <div class="publication-list">
 
-  <div class="publication-item">
-    “Do Color-Coded Nutrition Facts Panels Nudge the Use of Nutrition Information on Food Packaging?”  
-    (with Xuqi Chen, Lisa House, and Zhifeng Gao).  
-    <em>Food Policy</em>, 2024.  
-    <a href="https://doi.org/10.1016/j.foodpol.2024.102730">[click here]</a>
-  </div>
+    <div class="publication-item">
+      “Who sits next to whom? The role of physical distance in shaping academic achievement in rural China”  
+      (with Yu Bai, Yue Ma, Andrew Rule, and Scott Rozelle).  
+      <em>China Agricultural Economic Review</em>, 2026.  
+      <a href="https://doi.org/10.1108/CAER-03-2025-0102">[click here]</a>
+    </div>
 
-  <div class="publication-item">
-    “Associations between Urbanization and the Home Language Environment: Evidence from a LENA Study in Rural and Peri-urban China”  
-    (with Yue Ma, Scott Rozelle, <em>et al.</em>).  
-    <em>Child Development</em>, 2023.  
-    <a href="https://doi.org/10.1111/cdev.14034">[click here]</a>
-  </div>
+    <div class="publication-item">
+      “Do Color-Coded Nutrition Facts Panels Nudge the Use of Nutrition Information on Food Packaging?”  
+      (with Xuqi Chen, Lisa House, and Zhifeng Gao).  
+      <em>Food Policy</em>, 2024.  
+      <a href="https://doi.org/10.1016/j.foodpol.2024.102730">[click here]</a>
+    </div>
 
-  <div class="publication-item">
-    “Maternal Health Behaviors during Pregnancy in Rural Northwestern China”  
-    (with Yue Ma, Sarah-Eve Dill, <em>et al.</em>).  
-    <em>BMC Pregnancy and Childbirth</em>, 2020.  
-    <a href="https://doi.org/10.1186/s12884-020-03444-3">[click here]</a>
-  </div>
+    <div class="publication-item">
+      “Associations between Urbanization and the Home Language Environment: Evidence from a LENA Study in Rural and Peri-urban China”  
+      (with Yue Ma, Scott Rozelle, <em>et al.</em>).  
+      <em>Child Development</em>, 2023.  
+      <a href="https://doi.org/10.1111/cdev.14034">[click here]</a>
+    </div>
 
-  <div class="publication-item">
-    “Arrival Order for Positive and Negative Effects of Parental Migration on the Academic Performance of Left-behind Children in Rural China”  
-    (with Yu Bai).  
-    <em>Studies in Labor Economics</em> (in Chinese), 2018.
-    <a href="/assets/pdf/正负效应的先来后到：父母外出对留守儿童学业表现的影响研究.pdf">[click here]</a>
-  </div>
+    <div class="publication-item">
+      “Maternal Health Behaviors during Pregnancy in Rural Northwestern China”  
+      (with Yue Ma, Sarah-Eve Dill, <em>et al.</em>).  
+      <em>BMC Pregnancy and Childbirth</em>, 2020.  
+      <a href="https://doi.org/10.1186/s12884-020-03444-3">[click here]</a>
+    </div>
 
-    
+    <div class="publication-item">
+      “Arrival Order for Positive and Negative Effects of Parental Migration on the Academic Performance of Left-behind Children in Rural China”  
+      (with Yu Bai).  
+      <em>Studies in Labor Economics</em> (in Chinese), 2018.
+      <a href="/assets/pdf/正负效应的先来后到：父母外出对留守儿童学业表现的影响研究.pdf">[click here]</a>
+    </div>
+
   </div>
 
   <div class="section-header">
@@ -358,26 +348,10 @@ details p {
     <h2>Working Papers</h2>
   </div>
 
-
-  <div class="working-paper">
-    <h4>Friendship Formation and Peer Effect: Using Seat Distribution as an Instrument</h4>
-    <p class="authors">with Yu Bai, Yue Ma, Andrew Rule and Scott Rozelle</p>
-     <p class="authors">R&R at China Agriculture Economic Review</p>
-    <a href="https://dx.doi.org/10.2139/ssrn.4828554" class="btn btn-outline">📄 SSRN Draft</a>
-    <span class="tag">NEUDC 2023</span>
-    <span class="tag">PacDev 2024</span>
-    <span class="tag">AAEA 2024</span>
-    <details>
-      <summary>📋 Abstract</summary>
-      <p>This study investigates peer effects on academic performance using network theory and instrumental variables with 2,956 primary school students in rural China. Study groups significantly enhance achievement by 0.11 standard deviations, with stronger effects among male students, lower performers, and cohesive groups. Mediation analysis identifies intrinsic motivation as the primary mechanism driving peer effects through enhanced autonomous learning behaviors. Results suggest that optimizing spatial proximity in peer networks represents a cost-efficient policy instrument for human capital accumulation in resource-constrained settings, leveraging existing human capital without substantial additional inputs.</p>
-    </details>
-  </div>
-
   <div class="working-paper">
     <h4>Using Text Messages to Improve Parenting Knowledge and Early Childhood Development in Rural China</h4>
-    <p class="authors">with Yue Ma, Xiaoyang Ye, Susanna Loeb, Alexis Medina and Scott Rozelle </p>
-    <p class="authors">Under Review at Education Finance and Policy</p>
-    <a href="https://ssrn.com/abstract=4969618" class="btn btn-outline">📄 SSRN Draft</a>
+    <p class="authors">with Yue Ma, Xiaoyang Ye, Susanna Loeb, Alexis Medina and Scott Rozelle</p>
+    <p class="authors">Under Review</p>
     <span class="tag">AAEA 2022</span>
     <span class="tag">China Education Finance 2023</span>
     <details>
@@ -398,7 +372,7 @@ details p {
     <span class="tag">WEAI 2022</span>
   </div>
 
-   <div class="section-header">
+  <div class="section-header">
     <span class="icon">⚡</span>
     <h2>Policy and Outreach Writing</h2>
   </div>
@@ -408,14 +382,14 @@ details p {
     <p class="authors">with Yu Bai</p>
   </div>
 
-   <div class="section-header">
+  <div class="section-header">
     <span class="icon">⚡</span>
     <h2>Machine Learning Project</h2>
   </div>
 
   <div class="working-paper">
     <h4>Traffic Sign Classification</h4>
-    <p class="authors">with Thiago de Andrade & Rui Guo & Cody Haby</p>
+    <p class="authors">with Thiago de Andrade, Rui Guo and Cody Haby</p>
     <a href="/ProjectReport_TRYC.pdf" target="_blank" class="btn">📄 Full Draft</a>
     <details>
       <summary>📋 Abstract</summary>
@@ -426,7 +400,8 @@ details p {
   <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: var(--hover-color); border-radius: 12px;">
     <p style="margin: 0; color: var(--muted-color); font-size: 1rem;">
       <strong style="color: var(--primary-color);">Yujuan Gao</strong><br>
-      Contact: <a href="mailto:yujuan.gao@ufl.edu" style="color: var(--accent-color); font-weight: 500;">yujuan.gao@ufl.edu</a>
+      Contact: <a href="mailto:yujuangao@vt.edu" style="color: var(--accent-color); font-weight: 500;">yujuangao@vt.edu</a>
     </p>
   </div>
+
 </div>
